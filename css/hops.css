@@ -1,0 +1,10 @@
+#breweryhop ul, #breweryhop ol {
+	margin-bottom: 0.8em;
+	list-style-type: decimal;
+}
+
+#breweryhop li {
+	margin-left: 1.8em;
+	font-size: 120%;
+	line-height: 200%;	
+}

@@ -1,0 +1,27 @@
+#twitter_div h2.sidebar-title {
+	font-size: 120%;
+}
+
+#twitter_div h2.sidebar-title span {
+	font-weight: normal;
+	font-size: 70%;
+}
+
+#twitter_div ul#twitter_update_list {
+
+}
+
+#twitter_div ul#twitter_update_list li {
+	margin-top: 1.0em;
+	padding: 0.6em;
+	border: 1px solid #a1a1a1;
+	font-size: 84%;
+}
+
+#twitter_div ul#twitter_update_list li a {
+
+}
+
+#twitter_div ul#twitter_update_list li a:hover {
+
+}

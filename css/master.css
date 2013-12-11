@@ -1,0 +1,385 @@
+html, body {
+	background: #fff;
+	color: #000;
+	font-weight: normal;
+	font-size: 100%;
+	line-height: 140%;
+	font-family: georgia, serif;
+}
+
+h1, h2, h3 {
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 180%;
+}
+
+h2 {
+	font-size: 160%;
+}
+
+h3 {
+	font-size: 140%;
+}
+
+a {
+	color: #205591;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#page_header {
+	width: 960px;
+	height: 209px;
+	background: transparent url(../images/masthead.png) 0 0 no-repeat;
+	text-indent: -99999.0em
+}
+
+#page_footer {
+	margin: 1.0em 0;
+	padding: 0.4em;
+	border: 1px solid #a1a1a1;
+	font-size: 70%;
+}	
+
+#container_left, #container_right {
+	margin-top: 1.0em;
+}
+
+#container_left {
+	width: 100%;
+	float: left;
+	margin-right: -200px;
+}
+
+#contents {
+	margin-right: 200px;
+}
+
+.page p {
+	margin-top: 1.0em;
+	padding-right: 1.0em;
+}
+
+#container_right {
+	width: 200px;
+	float: right;
+}
+
+.page p.subHeading {
+	margin-top: 0;
+	font-size: 70%;
+}
+
+p.quote span {
+	font-style: italic;
+}
+
+#breweryhop {
+	margin: 1.0em auto;
+	width: 760px;
+}
+
+#breweryhop p {
+	margin-bottom: 1.0em;
+	line-height: 200%;
+}
+
+#breweryhop p.imageCaption {
+	margin: 4px 8px 0 0;
+	line-height: 120%;
+	font-size: 84%;
+}
+
+.img_left, .img_left_vertical {
+	margin: 10px 8px 6px 0;
+	padding: 0 8px 6px 0;
+	clear: both;
+	display: inline;
+	float: left;
+	border-right: 1px solid #a1a1a1;
+	border-bottom: 1px solid #a1a1a1;
+}
+
+.img_left, .img_right {
+	width: 360px;
+}
+
+.img_left_vertical, .img_right_vertical {
+	width: 240px;
+}
+
+.img_right, .img_right_vertical {
+	margin: 10px 0 6px 8px;
+	padding: 0 0 6px 8px;
+	clear: both;
+	display: inline;
+	float: right;
+	border-left: 1px solid #a1a1a1;
+	border-bottom: 1px solid #a1a1a1;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.center {
+	text-align: center;
+}
+
+.weight700 {
+	font-weight: 700;
+}
+
+br.both {
+	font-size: 1px;
+	line-height: 0;
+	height: 0;
+	clear: both;
+}
+
+br.left {
+	font-size: 1px;
+	line-height: 0;
+	height: 0;
+	clear: left;
+}
+
+/*
+Front page styles
+*/
+.review_front {
+	margin-top: 1.0em;
+}
+/*
+End front page styles
+*/
+
+/*
+Used for the front page display of reviews - only temporary until we move
+forward w/ a better design and due to lack of time
+*/
+.item {
+	margin: 1.0em 16px 1.0em 0;
+	padding: 0.4em;
+	border: 1px dashed transparent;
+}
+
+.list_itemContainer {
+	float: left;
+	width: 640px;
+}
+
+.item_rating {
+	margin-top: 1.0em;
+}
+
+.dl_tableDisplay {
+	margin-top: 0.6em;
+	width: 100%;
+}
+
+.dl_tableDisplay dt {
+	padding: 0.4em 1%;
+	width: 28%;
+	float: left;
+	font-weight: bold;
+	border-top: 1px solid #a1a1a1;
+}
+
+.dl_tableDisplay dd {
+	padding: 0.4em 1%;
+	width: 67%;
+	float: left;
+	border-top: 1px solid #a1a1a1;
+}
+
+/*
+Used for alternating colors throughout the site
+*/
+.bg1 {
+	background-color: #fff;
+}
+
+.bg2 {
+	background-color: #efefef;
+}
+
+/****
+Used for the beer reviews
+****/
+.reviewer {
+	padding: 0.4em 0;
+	width: 100%;
+}
+
+.rating, .user_info, .user_image {
+	float: left;
+}
+
+.rating {
+	padding-right: 10px;
+	width: 100px;
+	text-align: center;
+}
+
+.user_image {
+	padding-right: 10px;
+	width: 100px;
+}
+
+.user_info {
+	width: 510px;
+}
+
+.rating h1 {
+	margin: 0;
+	font-size: 300%;
+	line-height: 90%;
+}
+
+.rating p {
+	font-size: 70%;
+	padding-top: 0.8em;
+}
+
+.beerReview_comments, .beerReview_similar {
+	float: left;
+}
+
+.beerReview_comments {
+	width: 66%;
+}
+
+.beerReview_similar {
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 29%;
+}
+
+.beerReview_similar p {
+	font-size: 70%;
+}
+
+.beerReview_similar h3 {
+	margin-top: 2.0em;
+	font-size: 80%;
+}
+
+.beerReview .similarBeers {
+	border: 1px solid #efefef;
+}
+
+.similarBeers table, .similarBeers th, .similarBeers td {
+	font-size: 84%;
+}
+
+.similarBeers table {
+	width: 100%;
+}
+
+.similarBeers th {
+	font-weight: 700;	
+}
+
+.similarBeers .tr_bg {
+	background-color: #efefef;
+	border-bottom: #a1a1a1;
+}
+
+.similarBeers .td_70 {
+	width: 70%;
+}
+
+.similarBeers .td_30 {
+	width: 30%;
+}
+
+/** Table formatting for rating system **/
+#ratingSystem td {
+	padding: 0.6em 0.4em;
+	
+}
+
+#ratingSystem .ratingValue {
+	font-weight: 700;
+	font-size: 250%;
+	text-align: center;	
+}
+
+#ratingSystem h3 {
+	margin-bottom: 0.2em;
+	font-size: 120%;
+	font-weight: 700;
+}
+
+#ratingSystem h3 span {	
+	border-bottom: 1px solid #000;
+}
+
+#ratingSystem p {
+	margin-bottom: 0.4em;
+}
+
+#ratingSystem p span {
+	font-weight: 700;
+}
+/** End formatting for rating system **/
+
+/** Formatting for right column festivals **/
+#fests { 
+	margin-bottom: 1.0em;
+}
+
+#fests p {
+	font-size: 90%;
+}
+/** End formatting for right column festivals **/
+
+/** Formatting for private messages **/
+.maltedLeft, .maltedRight {
+	width: 50%;
+	float: left;
+}
+
+.maltedRight {
+	text-align: right;
+}
+/** End formatting for private messages **/
+
+/** Utility styles **/
+.gray {
+	background-color: #efefef;
+}
+
+.bold {
+	font-weight: 700;
+}
+/** End utitlity styles **/
+
+#swapsTable td {
+	vertical-align: top;
+}
+
+/** Formatting for private messages, which will all start with pms **/
+.pms_quote {
+	margin-left: 10%;
+	margin-top: 1.0em;
+}
+
+.pms_quote p {
+	border-bottom: 1px solid #a1a1a1;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 80%;
+	text-align: left;
+}
+/** End private messages **/

@@ -1,0 +1,117 @@
+/*.accordion_toggle {
+			display: block;
+			height: 30px;
+			width: 100%;
+			background: url(../images/accordion_toggle.jpg) no-repeat top right #f0f0f0;
+			line-height: 30px;
+			color: #000;
+			font-weight: normal;
+			font-size: 10px;
+			text-decoration: none;
+			outline: none;
+			color: #000;
+			border-bottom: 1px solid #ccc;
+			cursor: pointer;
+			margin: 0 auto;
+		}
+
+.accordion_toggle ul li { display: inline; margin: 0px 10px; width: 125px; font-size: 9px; }
+.accordion_toggle ul li.accordionname { float: left; display: block; width: 250px;}
+.accordion_toggle ul li.accordionemail { float: left; display: block; width: 225px; overflow: hidden; }
+.accordion_toggle ul li.accordionphone { float: left; display: block; width: 125px; }
+.accordion_toggle ul li.accordiondate { float: left; display: block; width: 175px; }
+.accordion_toggle ul li.accordionleadsource { float: left; display: block; width: 200px; }
+				
+		.accordion_toggle_active {
+			background: url(../images/accordion_toggle_active.jpg) no-repeat top right #d3d3d3;
+			color: #000;
+			border-bottom: 1px solid #999;
+		}
+
+.accordion_content {
+			background-color: #fff;
+			color: #000;
+			overflow: hidden;
+			width: 100%;
+			min-width: 775px;
+			margin: 0 auto;
+		}
+
+.accordion_content ul { display: block; padding: 7px; font-size: 10px; color: #000; list-style: none; margin-left: 15px; width: 100%; overflow: auto; line-height: 2em; }
+
+.accordion_content li.contentleft { line-height: 2em; width: 200px; }
+.accordion_content li.contentright { line-height: 2em; width: 500px; }
+
+.accordion_content table { width: auto; }
+
+.accordion_content ul.noliststyle { font-weight: normal; font-size: 10px; list-style: none; width: 70%; }
+
+.accordion_content p { line-height: 1.5em; padding: 2px; margin: 0; }
+
+.accordion_content span { font-size: 12px; font-weight: normal; }*/
+
+/**
+Settings for chat leads
+**/
+.atoggle, .atoggle_active {
+	/*display: block;
+	height: 30px;*/
+	width: 730px;
+	/*background: #e8edff url(../images/accordion_myToggle.jpg) no-repeat top right;*/
+	color: #000;
+	/*font-weight: normal;
+	font-size: 10px;*/
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+	margin-top: 0.4em;
+	padding-bottom: 0.4em;
+}
+
+.accordion_content {
+	margin-bottom: 0.4em;
+	width: 728px;
+	overflow: hidden;
+	border-style: solid;
+	border-width: 0 1px 1px;
+	border-color: #ccc;
+	
+}	
+
+/* toggle for beer review */
+.toggle_beerReview, .active_beerReview {
+	width: 730px;
+	color: #000;
+	cursor: pointer;
+	margin-top: 0.4em;
+}
+
+.toggle_beerReview {
+	border-bottom: 1px solid #ccc;
+}
+
+.active_beerReview {
+
+}
+
+.content_beerReview {
+	margin-bottom: 1.0em;
+	width: 728px;
+	overflow: hidden;
+	border-style: solid;
+	border-width: 0 1px 1px;
+	border-color: #ccc;	
+}
+
+/*.atoggle_active
+ {
+	display: block;
+	height: 30px;
+	width: 100%;
+	background: #d0dafd url(../images/accordion_myToggle_active.jpg) no-repeat top right;
+	line-height: 3em;
+	color: #000;
+	font-weight: normal;
+	font-size: 10px;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}*/

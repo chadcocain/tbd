@@ -1,0 +1,197 @@
+#header {
+	background-color: #205591;
+	color: #fff;
+	width: 100%;
+	height: 100px;
+}
+
+#header h2 {
+	padding-top: 10px;
+	width: 50%;
+	float: left;
+}
+
+#header ul {
+	padding-top: 10px;
+	padding-right: 1%;
+	width: 49%; 
+	float: right;
+	text-align: right;
+	font-size: 80%;
+}
+
+#header ul li {
+	line-height: 110%;
+}
+
+#header a {
+	color: #fff;
+}
+
+#contents_left {
+	width: 100%;
+	float: left;
+	margin-right: -200px;
+}
+
+#contents {
+	margin-right: 200px
+}
+
+#contents_right {
+	width: 200px;
+	float: right;
+}
+
+#pageHeader {
+	margin-top: 1.0em;
+	padding-bottom: 1.0em;
+}
+
+.item {
+	margin: 1.0em 16px 1.0em 0;
+	padding: 0.4em;
+	border: 1px dashed transparent;
+}
+
+.item:hover {
+	border: 1px dashed #a1a1a1;
+}
+
+.list_itemContainer {
+	float: left;
+	width: 640px;
+	position: relative;
+}
+
+.item_rating {
+	margin-top: 1.0em;
+}
+
+.dl_tableDisplay {
+	margin-top: 0.6em;
+	width: 480px;
+	float: left;
+}
+
+.dl_tableDisplay dt {
+	padding: 0.4em 5px;
+	width: 150px;
+	float: left;
+	font-weight: bold;
+	border-top: 1px solid #a1a1a1;
+}
+
+.dl_tableDisplay dd {
+	padding: 0.4em 5px;
+	width: 310px;
+	float: left;
+	border-top: 1px solid #a1a1a1;
+}
+
+.list_horizontalLinks {
+	float: left;
+	width: 80px;
+	text-align: right;
+}
+
+#navigation {
+	margin-top: 1.0em;
+}
+
+#navigation li {
+	padding: 0.2em;
+}
+
+#navigation li.navTitle {
+	background-color: #205591;
+	color: #fff;
+	font-weight: 700;
+}
+
+#navigation li.navLink {
+	padding-left: 1.0em;
+	background-color: #fff;
+	color: #333;
+	text-align: right;
+	font-weight: normal;
+}
+
+.list_ratings h1 {
+	font-size: 220%;
+	width: 10%;
+	float: left;
+	line-height: 100%;
+}
+
+.list_ratings dl {
+	 float: left; 
+	 width: 90%;
+}
+
+.list_ratings dt, .list_ratings dd {
+	margin: 0;
+	padding: 0;
+	line-height: 120%;
+}
+
+.list_ratings dt {
+	font-weight: bold;
+}
+
+.accordion_content ul {
+	margin: 0;
+	padding: 0.6em;
+}
+
+.accordion_content li {
+	line-height: 150%;
+}
+
+.accordion_content li.comments {
+	margin-top: 0.8em;
+}
+
+.dl_tableDisplay .borderBottom_none {
+ 	border-bottom: 0px;
+}
+ 
+.admin_beerPic {
+ 	margin-right: 10px;
+	width: 150px; 
+	height: 350px; 
+	float: left;
+}
+ 
+/* Start css for nubbin on the beer pictures */
+.nubbin {
+	padding: 2px 4px;
+	background-color: #fff;
+	height: 20px;
+	width: auto;
+	border-right: 1px dotted #a1a1a1;
+	border-bottom: 1px dotted #a1a1a1;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+ 
+ .nubbin ul li {
+	padding: 1px 5px 1px 0;
+	display: inline;
+	float: left;
+	height: 18px;
+	overflow: hidden;
+	line-height: 18px;
+	list-style-type: none;
+ }
+ 
+ .nubbin ul li.edit {
+	padding-left: 4px;
+ }
+ /* End css for the nubbin on the beer pictures */
+ 
+ #cropThisImage {
+	display: block;
+ }

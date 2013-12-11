@@ -1,0 +1,124 @@
+#login_container {
+	margin: 0 auto;
+	width: 480px;
+}
+
+#login_container h2 {
+	margin: 1.0em 0;
+}
+
+#loginForm {
+	background-color: #205591;
+	width: 100%;
+}
+
+#login_top, #login_bottom {
+	width: 100%;
+	height: 18px;
+}
+
+#login_top {
+	background: transparent url(../images/login_top.png) 0 0 no-repeat;
+}
+
+#login_bottom {
+	background: transparent url(../images/login_bottom.png) 0 0 no-repeat;
+}
+
+#loginForm form {
+	margin: 0 auto;
+	width: 400px;
+}
+
+#loginForm label, .edit label {
+	padding-top: 0.6em;
+	font-size: 80%;
+	color: #fff;
+	font-weight: 700;
+}
+
+#loginForm input, .edit input, .edit select, .edit textarea {
+	font-weight: normal;
+	font-size: 160%;
+	font-family: georgia, serif;
+}
+
+#loginForm label, #loginForm input, .edit label, .edit input, .edit select {
+	width: 100%;
+	display: block;
+}
+
+#loginForm #submit, .edit #btn_submit {
+	margin: 1.0em auto 0;
+	width: 60%;
+	font-size: 110%;
+}
+
+#loginError {
+	margin: 0.6em;
+	padding: 0.4em;
+	width: 100%;
+	background-color: #fdd;
+	border: 1px solid #c00;
+	color: #c00;
+	font-weight: bold;
+}
+
+
+.edit fieldset {
+	margin: 1.0em 0 0;
+	padding: 1.0em 0;
+	border-top: 1px solid #a1a1a1;
+}
+
+.edit legend {
+	padding: 0.6em;
+	border: 1px solid #a1a1a1;
+	font-size: 160%;
+	font-weight: 700;
+}
+
+.edit label, .edit input, .edit select, .edit textarea {
+	width: 92%;
+}
+
+.edit label {
+	color: #000;
+}
+
+.edit textarea {
+	height: 100px;
+}
+
+.edit #btn_submit {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/** styles for forms that are wrapped for error messaging **/
+.formBlock {
+	margin: 1.0em;
+	padding: 0.8em;
+}
+
+.formBlockError {
+	background-color: #eeb4b4;
+}
+
+.formError p {
+	font-weight: 700;
+	color: #8c1717;
+}
+
+.required {
+	color: #8c1717;
+}	
+/** end styles for form error messaging **/
+
+#modal_form label, #modal_form textarea {
+    display: block;
+}
+
+#modal_form textarea {
+    width: 92%;
+}

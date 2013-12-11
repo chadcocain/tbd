@@ -1,0 +1,55 @@
+#thread_container .user_info {
+    font-size: 80%;
+    line-height: 1.4em;
+}
+
+#thread_container .user_image {
+    margin-left: 0.8em;
+    width: 50px;
+}
+
+#thread_container .singleBeerReview {
+    padding-bottom: 0;
+}
+
+.beerReview_comments {
+    float: none;
+    width: 100%;
+}
+
+ul.sub_nav {
+    margin: 0.4em 0 0;
+    padding-left: 0;
+    white-space: nowrap;
+}
+
+.sub_nav li {
+    display: inline;
+    list-style-type: none;
+}
+
+.sub_nav a { 
+    padding: 3px 10px;
+}
+
+.sub_nav a:link, .sub_nav a:visited {
+    color: #fff;
+    background-color: #0561a2;
+    text-decoration: none;
+}
+
+.sub_nav a:hover {
+    color: #fff;
+    background-color: #005508;
+    text-decoration: none;
+}
+
+div.thread_quote {
+    margin: 0.4em 1.0em;    
+}
+
+p.quote_contents {
+    padding: 0.4em;
+    background-color: #dedede;
+    border: 1px solid #cecece;
+}

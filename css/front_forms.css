@@ -1,0 +1,70 @@
+/*.edit fieldset {
+	margin: 1.0em 0 0;
+	padding: 1.0em 0;
+	border-top: 1px solid #a1a1a1;
+}
+
+.edit legend {
+	padding: 0.6em;
+	border: 1px solid #a1a1a1;
+	font-size: 160%;
+	font-weight: 700;
+}
+
+.edit label, .edit input, .edit select, .edit textarea {
+	width: 92%;
+}
+
+.edit label {
+	color: #000;
+}
+
+.edit textarea {
+	height: 100px;
+}
+
+.edit #btn_submit {
+	margin-left: 0;
+	margin-right: 0;
+}*/
+
+/** styles for forms that are wrapped for error messaging **/
+.formBlock {
+	margin-top: 1.0em;
+	padding-top: 0.4em;
+}
+
+.formBlock label, .formBlock input, .formBlock select, .formBlock textarea {
+	width: 92%;
+	display: block;
+	font-weight: 700;
+}
+
+.formBlock input, .formBlock select, .formBlock textarea {
+	font-family: georgia, serif;
+	font-size: 120%;
+	color: #000;
+}
+
+.formBlock textarea {
+	min-height: 8.0em;
+}
+
+.formBlockError {
+	background-color: #eeb4b4;
+}
+
+.formError p {
+	font-weight: 700;
+	color: #8c1717;
+}
+
+.required {
+	color: #8c1717;
+}	
+/** end styles for form error messaging **/
+
+.charsRemaining {
+    font-weight: 300;
+    font-size: 80%;
+}

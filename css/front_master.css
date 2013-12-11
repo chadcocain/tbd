@@ -1,0 +1,1304 @@
+html, body {
+	background: #fff;
+	color: #000;
+	font-weight: normal;
+	font-size: 92%;
+	line-height: 140%;
+	font-family: georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 180%;
+}
+
+h2 {
+	font-size: 160%;
+}
+
+h3 {
+	font-size: 140%;
+}
+
+a {
+	color: #205591;
+	color: #0561a2;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#container {
+	margin: 1.0em auto;
+	width: 960px;
+	position: relative;
+}
+
+#page_header {
+	width: 960px;
+	height: 209px;
+	background: transparent url(../images/masthead.png) 0 0 no-repeat;
+	text-indent: -99999.0em
+}
+
+#page_footer {
+	margin: 1.0em 0;
+	padding: 0.4em;
+	border: 1px solid #a1a1a1;
+	font-size: 70%;
+}	
+
+#wrapper {
+	padding-bottom: 1.0em;
+	background: transparent url(../images/faux_col.gif) 0 100% repeat-y;
+}
+
+#container_left, #container_right {
+	margin-top: 1.0em;
+}
+
+#container_left {
+	width: 100%;
+	float: left;
+	margin-right: -200px;
+	margin-right: -300px;
+	background: transparent url(../images/faux_col.gif) 0 100% repeat-y;
+}
+
+#contents {
+	margin-right: 220px;
+	margin-right: 315px;
+}
+
+#introContents p {
+	margin-top: 1.0em;
+}
+
+dl.dl_nomargin dt {
+	font-weight: 700;
+}
+
+dl.dl_nomargin dd {
+	margin-bottom: 0.6em;
+}
+
+.page p {
+	margin-top: 1.0em;
+	padding-right: 1.0em;
+}
+
+#container_right {
+	width: 200px;
+	width: 295px;
+	float: right;
+}
+
+.page p.subHeading {
+	margin-top: 0;
+	font-size: 70%;
+}
+
+#breweryhop {
+	margin: 1.0em auto;
+	width: 760px;
+	width: 100%;
+}
+
+#breweryhop p {
+	margin-bottom: 1.0em;
+	line-height: 200%;
+	font-size: 120%;
+}
+
+#breweryhop p.imageCaption {
+	margin: 4px 8px 0 0;
+	line-height: 120%;
+	font-size: 84%;
+}
+
+.img_left, .img_left_vertical {
+	margin: 10px 8px 6px 0;
+	padding: 0 8px 6px 0;
+	clear: both;
+	display: inline;
+	float: left;
+	border-right: 1px solid #a1a1a1;
+	border-bottom: 1px solid #a1a1a1;
+}
+
+.img_left, .img_right {
+	width: 360px;
+}
+
+.img_left_vertical, .img_right_vertical {
+	width: 240px;
+}
+
+.img_right, .img_right_vertical {
+	margin: 10px 0 6px 8px;
+	padding: 0 0 6px 8px;
+	clear: both;
+	display: inline;
+	float: right;
+	border-left: 1px solid #a1a1a1;
+	border-bottom: 1px solid #a1a1a1;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.center {
+	text-align: center;
+}
+
+.weight700 {
+	font-weight: 700;
+}
+
+br.both {
+	font-size: 1px;
+	line-height: 0;
+	height: 0;
+	clear: both;
+}
+
+br.left {
+	font-size: 1px;
+	line-height: 0;
+	height: 0;
+	clear: left;
+}
+
+.brown {
+	color: #794815;
+}
+
+.green {
+	color: #005508;
+}
+
+.lightblue {
+	color: #508aac;
+}
+
+.mediumgray {
+	color: #848a86;
+}
+
+.long {
+	color: #c83;
+}
+
+.longer {
+	color: #c62;
+}
+
+.longest {
+	color: #c31;
+}
+
+.toolong {
+	color: #c00;
+}
+
+
+.alignleft {
+	float: left;
+}
+
+img.alignleft {
+	display: inline;
+	margin-right: 12px;
+}
+
+/*
+Footer styles
+*/
+#footer {
+	border-top: 2px solid #ccc;
+	background: #141414 url(../images/beer.jpg) 100% 0 no-repeat;
+	width: 100%;
+	min-height: 142px;
+	color: #fff;
+	font-size: 86%;
+	clear: both;
+}
+
+#footerContainer {
+	margin-right: 200px;
+	padding: 1.0em;
+}
+
+#footer p {
+	magrgin-top: 1.0em;
+}
+
+.footer_small {
+	font-size: 74%;	
+}
+
+p.quote {
+	border-top: 1px solid #ccc;
+	padding-top: 1.0em;
+}
+
+p.quote span {
+	font-style: italic;
+}
+
+.footer_links {
+	margin-bottom: 1.0em;
+	padding-right: 20px;
+	width: 200px;
+	float: left;
+}
+
+.footer_links h4 {
+	font-weight: 700;
+}
+
+.footer_links li {
+	padding-bottom: 5px;
+	/*padding-left: 5px;*/
+}
+
+.footer_links a {
+	color: #fff;
+}
+/*
+End footer styles
+*/
+
+/*
+Login mast area styles
+*/
+#loginMast {
+	width: 100%;
+	/*background: transparent url(../images/header_1.jpg) 0 0 no-repeat;*/
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	height: 149px;
+	position: relative;
+}
+
+#tagLineWrapper {
+	position: absolute;
+	top: 120px;
+	right: 6px;
+	width: auto;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#tagLineWrapperOpacity {
+	position: absolute;
+	background-color: #000;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25); 
+	opacity: 0.25;	
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}
+
+#tagLineWrapper p#tagLine {	
+	padding: 3px;
+	text-align: right;
+	color: #efefef;
+	font-style: italic;
+	font-size: 115%;
+	font-weight: 700;
+	font-family: arial, helvetica, sans-serif;
+}
+
+#loginInfo {
+	width: 580px;
+	float: left;
+	background-color: #fff;
+	height: 26px;
+	line-height: 24px;
+}
+
+#loginInfo span {
+	padding-right: 0.4em;
+}
+
+#joinButton, #loginButton {
+	text-indent: -9999.0em;	
+	width: 70px;
+	height: 24px;
+	display: block;
+	float: left;
+}
+
+#joinButton {
+	margin-right: 0.6em;
+	background: transparent url(../images/button_signup.gif) 0 0 no-repeat;
+}
+
+#loginButton {
+	background: transparent url(../images/button_login.gif) 0 0 no-repeat;
+}
+
+#editBeerForm {
+	padding-left: 10px;
+	width: 370px;
+	float: left;
+}
+
+#editBeerForm input, #editBeerForm select {
+	font-size: 90%;
+	float: left;
+	display: block;
+	margin-right: 0.5em;
+	margin-top: 4px;
+}
+
+#editBeerForm img {
+	/*padding-top: 4px;*/
+	height: 21px;
+	display: inline;
+}
+
+input#img_search {
+	width: 60px;
+	height: 21px;
+}
+
+#txt_search {
+	padding: 2px 8px 0 22px;
+	border: none;
+	background: transparent url(../images/search_bg.gif) 0 0 no-repeat;
+	height: 20px;
+	width: 141px;
+}
+/*
+End login mast area styles
+*/
+
+/*
+Front page styles
+*/
+.review_front {
+	margin-top: 1.0em;
+}
+
+.keg {
+	padding-left: 20px;
+	width: 50%;
+	float: left;
+	background: transparent url(../images/beer_keg.gif) 0 0 no-repeat;	
+	line-height: 24px;
+}
+
+.srm {
+	padding-left: 26px;
+	background: transparent url(../images/srm.png) 0 0 no-repeat;	
+	line-height: 24px;
+}
+
+.hop {
+	padding-left: 18px;
+	background: transparent url(../images/cone.gif) 0 0 no-repeat;	
+	line-height: 24px;
+}
+
+.ratingStar {
+	padding-left: 26px;
+	background: transparent url(../images/rating_star.jpg) 0 0 no-repeat;	
+	line-height: 24px;
+}
+
+.rightLink {
+	width: 44%;
+	float: left;
+	text-align: right;
+	line-height: 24px;
+}
+
+.rightLink a {
+	text-decoration: underline;
+	font-size: 84%;
+}
+
+.rightLink a:hover {
+	text-decoration: none;
+}
+
+.table_reviewFront {
+	margin-top: 1.0em;
+	clear: left;
+	width: 96%;
+}
+
+.table_reviewFront td{
+	padding-top: 0.8em;
+}
+
+.table_reviewFront th {
+	margin-top: 0.6em;
+	padding: 0.4em 0;
+	font-weight: 700;
+	background-color: #848a86;
+	color: #fff;
+}
+
+#breweryHop {
+	margin-top: 2.0em;
+}
+
+#breweryHop p {
+	margin-top: 1.0em;
+}
+
+.breweryHopText {
+	margin-left: 312px;
+}
+
+.readMore a {
+	padding-right: 40px;
+	color: #333;
+	text-decoration: none;
+	background: transparent url(../images/circle_arrow.gif) 80% 4px no-repeat;
+}
+
+.readMore a:hover {
+	text-decoration: underline;
+}
+
+#blogPosts {
+	margin-top: 2.0em;
+	clear: both;
+}
+
+#blogPosts h2 {
+	padding-left: 36px;
+	background: transparent url(../images/rss_icon.gif) 0 0 no-repeat;	
+	line-height: 33px;
+}
+
+#blogPosts li {
+	margin-top: 1.0em;
+}
+
+.blogDate {
+	margin-right: 0.4em;
+	padding: 2px 4px 2px 2px;
+	background: transparent url(../images/blog_date_bg.gif) 0 0 no-repeat;
+}	
+
+.blogLink {
+	margin-right: 0.4em;
+	font-weight: 700;
+}
+
+#season h3 {
+	padding-left: 28px;
+	line-height: 26px;
+}
+
+#season li {
+	margin-top: 0.6em;
+}
+
+h3.oktoberfest {
+	background: transparent url(../images/seasonal_indicator_octoberfest.gif) 0 0 no-repeat;
+}
+
+h3.winter {
+	background: transparent url(../images/seasonal_indicator_winter.gif) 0 0 no-repeat;
+}
+
+h3.holiday {
+	background: transparent url(../images/seasonal_indicator_holiday.png) 0 0 no-repeat;
+}
+
+h3.winter {
+	background: transparent url(../images/seasonal_indicator_snowflake.gif) 0 0 no-repeat;
+}
+
+h3.earlySpring {
+	background: transparent url(../images/seasonal_indicator_clover.gif) 0 0 no-repeat;
+}
+
+h3.spring {
+	background: transparent url(../images/seasonal_indicator_tree.jpg) 0 0 no-repeat;
+}
+
+h3.summer {
+    background: transparent url(../images/seasonal_indicator_sun.gif) 0 0 no-repeat;
+}
+
+#twitter_div {
+	margin-top: 2.0em;
+}
+
+#twitterTitle {
+	padding-left: 35px;
+	background: transparent url(../images/tweetie_bird.gif) 0 0 no-repeat;
+	line-height: 33px;
+}
+
+#twitter-link {
+	font-size: 60%;
+	font-weight: 700;
+	color: #508aac;
+}
+
+#twitter_update_list {
+	margin-top: 0.6em;
+	background: transparent url(../images/twitter_bg.gif) 0 0 no-repeat;
+	width: 291px;
+}
+
+#twitter_update_list li {
+	padding: 0.6em;
+	border-bottom: 1px solid #e5e5e5;
+}
+/*
+End front page styles
+*/
+
+/*
+Used for the front page display of reviews - only temporary until we move
+forward w/ a better design and due to lack of time
+*/
+.item {
+	margin: 1.0em 16px 1.0em 0;
+	padding: 0.4em;
+	border: 1px dashed transparent;
+}
+
+.list_itemContainer {
+	float: left;
+	width: 640px;
+}
+
+.item_rating {
+	margin-top: 1.0em;
+}
+
+.dl_tableDisplay {
+	margin-top: 0.6em;
+	width: 100%;
+}
+
+.dl_tableDisplay dt {
+	padding: 0.4em 1%;
+	width: 28%;
+	float: left;
+	font-weight: bold;
+	border-top: 1px solid #a1a1a1;
+}
+
+.dl_tableDisplay dd {
+	padding: 0.4em 1%;
+	width: 67%;
+	float: left;
+	border-top: 1px solid #a1a1a1;
+}
+
+/*
+Used for alternating colors throughout the site
+*/
+.bg1 {
+	background-color: #fff;
+}
+
+.bg2 {
+	background-color: #cecece;
+}
+
+.bg3 {
+	background-color: #efefef;
+}
+
+/****
+Used for the beer reviews
+****/
+.reviewer {
+	padding: 0.4em 0;
+	width: 100%;
+}
+
+.rating, .user_info, .user_image {
+	float: left;
+}
+
+.feedback_pullback {
+     margin-right: -200px;
+}
+
+.feedback_report_link {
+    margin-right: 0.5em;
+    float: right;
+    width: 200px;
+    text-align: right;    
+}
+
+.rating {
+	padding-right: 10px;
+	width: 100px;
+	text-align: center;
+}
+
+.user_image {
+	padding-right: 10px;
+	width: 100px;
+}
+
+.user_info {
+	width: 421px;
+}
+
+.rating h1 {
+	margin: 0;
+	font-size: 300%;
+	line-height: 90%;
+}
+
+.rating .h1_rating {
+	font-size: 500%;
+	color: #c00;
+	padding-top: 12px;
+}
+
+.rating p {
+	font-size: 70%;
+	padding-top: 0.8em;
+}
+
+.beerReview_comments, .beerReview_similar {
+	float: left;
+}
+
+.beerReview_comments {
+	width: 66%;
+}
+
+p.ratingDate {
+	margin-top: 1.0em;
+	font-size: 86%;
+	color: #666;
+}
+
+.beerReview_similar {
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 29%;
+}
+
+.beerReview_similar p {
+	font-size: 70%;
+}
+
+.beerReview_similar h3 {
+	margin-top: 2.0em;
+	font-size: 80%;
+}
+
+.beerReview .similarBeers {
+	border: 1px solid #efefef;
+}
+
+.similarBeers table, .similarBeers th, .similarBeers td {
+	font-size: 84%;
+}
+
+.similarBeers table {
+	width: 100%;
+}
+
+.similarBeers th {
+	font-weight: 700;	
+}
+
+.similarBeers .tr_bg {
+	background-color: #efefef;
+	border-bottom: #a1a1a1;
+}
+
+.similarBeers .td_70 {
+	width: 70%;
+}
+
+.similarBeers .td_30 {
+	width: 30%;
+}
+
+.singleReviewContainer {
+	margin-bottom: 1.0em;
+}
+
+.topCurve, .topCurve_white, .bottomCurve, .bottomCurve_gray {
+	width: 645px;
+	height: 4px;
+}
+
+.reviewBorder {
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+}
+
+.topCurve {
+	background: transparent url(../images/top_corner.gif) 0 0 no-repeat;
+}
+
+.topCurve_white {
+	background: transparent url(../images/top_corner_white.gif) 0 0 no-repeat;
+}
+
+.bottomCurve {
+	background: transparent url(../images/bottom_corner.gif) 0 0 no-repeat;
+}
+
+.bottomCurve_gray {
+	background: transparent url(../images/bottom_corner_gray.gif) 0 0 no-repeat;
+}
+
+.content_beerReview {
+	padding: 6px 8px 8px;
+	border-top: 1px solid #666;
+}
+
+.singleBeerReview {
+	padding-bottom: 6px;
+	background-color: #cecece;
+}
+
+.bottleCap {
+	padding-right: 8px;
+	width: 42px;	
+	float: left;
+}
+
+.bottleCap p {
+	padding-top: 12px;
+	padding-left: 9px;
+	background: transparent url(../images/bottle_cap.gif) 0 0 no-repeat;
+	height: 42px;
+	color: #135c00;
+	font-weight: 700;
+}
+
+.rightSimilar {
+	width: 245px;
+	float: left;
+}
+
+.rightSimilar p {
+	padding-top: 4px;
+	line-height: 125%;
+}
+
+.rightBreweryLink, .rightBreweryLink a {
+	color: #666;
+}
+
+.rightBreweryLink a {
+	font-weight: 700;
+}
+
+.notice {
+	font-size: 140%;
+}
+
+/** Table formatting for rating system **/
+#ratingSystem td {
+	padding: 0.6em 0.4em;
+	
+}
+
+#ratingSystem .ratingValue {
+	font-weight: 700;
+	font-size: 250%;
+	text-align: center;	
+}
+
+#ratingSystem h3 {
+	margin-bottom: 0.2em;
+	font-size: 120%;
+	font-weight: 700;
+}
+
+#ratingSystem h3 span {	
+	border-bottom: 1px solid #000;
+}
+
+#ratingSystem p {
+	margin-bottom: 0.4em;
+}
+
+#ratingSystem p span {
+	font-weight: 700;
+}
+/** End formatting for rating system **/
+
+/** Formatting for right column festivals **/
+#fests { 
+	margin-bottom: 1.0em;
+}
+
+#fests p {
+	font-size: 90%;
+}
+/** End formatting for right column festivals **/
+
+/** Formatting for private messages **/
+.maltedLeft, .maltedRight {
+	float: left;
+}
+
+.maltedLeft {
+	width: 130px;
+	width: 30%;
+}
+
+.maltedRight {
+	width: 510px;
+	width: 70%;
+}
+/** End formatting for private messages **/
+
+/** Utility styles **/
+.gray, .even {
+	background-color: #efefef;
+}
+
+.gray2 {
+	background-color: #cecece;
+}
+
+.white {
+	background-color: #fff;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.noBold {
+	font-weight: normal;
+}
+
+.alignRight {
+	text-align: right;
+}
+/** End utitlity styles **/
+
+#swapsTable td {
+	vertical-align: top;
+}
+
+/** Formatting for private messages, which will all start with pms **/
+.pms_quote {
+	margin-left: 10%;
+	margin-top: 1.0em;
+}
+
+.pms_quote p {
+	border-bottom: 1px solid #a1a1a1;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 80%;
+	text-align: left;
+}
+/** End private messages **/
+
+/** Formatting for styles page **/
+.subStyle {
+	margin-bottom: 0.8em;
+	width: 49%;
+	float: left;
+}
+
+#breweryInfo {
+	margin-bottom: 1.0em;
+}
+
+#styles h2, #breweryInfo h2, #agreement h2 {
+	margin-bottom: 0.6em;
+}
+
+#styles p {
+	margin-bottom: 1.0em;
+}
+
+#agreement p {
+    margin-bottom: 0.6em;
+}
+
+#agreement ol {
+    margin-left: 2.4em;
+}
+
+#agreement li {
+    margin-bottom: 0.8em;
+}
+
+#agreement ol ol li {
+    list-style-type: lower-alpha;
+}
+
+#agreement ol ul {
+    margin-left: 1.8em;
+}
+
+#agreement ol ul li {
+    list-style-type: disc;
+}
+
+.subStyle h3, .est_byCity {
+	margin-bottom: 0.4em; 
+	color: #135c00;
+	font-size: 110%;
+}
+
+.subStyle h2.notFirst {
+	margin-top: 1.0em;
+}
+
+#beerTable table {
+	width: 100%;
+}
+
+#beerTable caption, #beerTable th, #beerTable td {
+	padding: 5px 6px;
+}
+
+.tablesorter thead tr th.header {
+    cursor: pointer;
+    background: transparent url("../images/bg.gif") 100% 50% no-repeat;
+    min-width: 65px;
+}
+
+.tablesorter thead tr th.noPointer {
+    cursor: auto;
+    background: none;
+    min-width: 0;
+}
+
+.tablesorter thead tr th.headerSortDown {
+    background-image: url("../images/desc.gif");
+}
+
+.tablesorter thead tr th.headerSortUp {
+    background-image: url("../images/asc.gif");
+}
+
+#beerTable td {
+	vertical-align: top;
+}
+
+#beerTable caption, #beerTable th {
+	font-weight: 700;
+}
+
+#beerTable td.td_first {
+	padding-left: 0;
+}
+
+#beerTable td.td_last {
+	padding-right: 0;
+}
+/** End formatting for styles page **/
+
+/** Begin pagnation styles **/
+.pagnation {
+	margin-top: 1.0em;
+}
+
+.pagnation div {
+	width: 49%;
+	float: left;
+}
+
+.pagnation p {
+	width: 49%;
+	float: right;
+	text-align: right;
+}
+
+.pagnation a, .pagnation strong {
+	padding: 3px 5px;
+	zoom: 1;
+}
+
+.pagnation strong {
+	border: 1px solid #666;
+	background-color: #a1a1a1;
+	color: #efefef;
+	font-weight: 700;
+}
+
+.pagnation a {
+	background-color: #cecece;
+	border: 1px solid #999;
+}
+/** End pagnation styles **/
+
+.sideInfo h4 {
+	margin-bottom: 0.4em;
+	height: 30px;
+	background: #afafaf url(../images/rightcol_heading_bg.gif) 0 0 no-repeat;
+}
+
+.sideInfo h4 span {
+	padding: 6px 0 0 6px;
+	display: block;
+	color: #135c00;
+}
+
+.sideInfo ul {
+	margin-bottom: 1.0em;
+}
+
+.sideInfo li, .sideInfo p {
+	margin-bottom: 0.4em;
+	font-size: 94%;
+}
+
+
+ul.stateList {
+	margin-top: 0.6em;
+	width: 33%;
+	float: left;
+	overflow: hidden;
+}
+
+ul.stateEst {
+	margin-top: 0.6em;
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+
+.est_byCity {
+	margin-top: 0.6em;
+	margin-bottom: 0;
+}
+
+/** start user styles **/
+.userAvatar {
+	width: 115px;
+	float: left;
+}
+
+.userInfo {
+	width: 500px;
+	float: left;
+}
+
+.userInfo li {
+	margin-bottom: 0.2em;
+}
+
+#swaps {
+	margin-top: 0.6em;
+	clear: left;
+}
+/** end user styles **/
+
+
+
+.marginTop_4 {
+	margin-top: 4px;
+}
+
+.marginTop_8 {
+	margin-top: 8px;
+}
+
+.smallerText {
+	font-size: 80%;
+}
+
+.maltedMessage {
+	padding: 0.4em;
+}
+
+/* Sliders */
+.slider {
+	width: 134px;
+	height: 24px;
+	position: relative;
+	background: #fff url(../images/slider_graph.gif) 0 0 no-repeat;
+}
+
+/*.slider {
+	background-color: #333;
+	height: 10px;
+	margin: 10px 0;
+	position: relative;
+	width: 256px;
+}*/
+
+.slider .handle {
+	top: 11px;
+	width: 13px;
+	height: 13px;
+	cursor: move;
+	position: absolute;
+	background: #fff url(../images/slider.gif) 0 0 no-repeat;
+	/*background-color: #000;*/
+}
+
+/*.slider .handle {
+	background-color: #f00;
+	cursor: move;
+	height: 15px;
+	position: absolute;
+	width: 10px;
+}*/
+/* End Sliders */
+
+#swapsTable {
+	margin-top: 1.0em;
+	width: 96%;
+}
+
+#swapsTable th, #swapsTable td {
+	padding: 0.2em 0.4em;
+}
+
+#swapsTable th {
+	font-weight: 700;
+}
+
+
+.padAll {
+	padding: 0.4em;
+}
+
+dl {
+	margin: 1.0em 0;
+}
+
+/*dt {
+	padding: 0.4em;
+	background-color: #508aac;
+	border-width: 1px 1px 0;
+	border-style: solid;
+	border-color: #194e6d;
+}
+
+dd {
+	padding: 0.4em;
+	background-color: #6b9fbd;
+	border-width: 1px 1px 0;
+	border-style: solid;
+	border-color: #194e6d;
+}*/
+
+/*dt {
+	padding: 0.4em;
+	background-color: #005508;
+	border-width: 1px 1px 0;
+	border-style: solid;
+	border-color: #063d0b;
+	font-weight: 700;
+}
+
+dd {
+	margin-bottom: 0.6em;
+	padding: 0.4em;
+	background-color: #398840;
+	border-width: 1px 1px 0;
+	border-style: solid;
+	border-color: #063d0b;
+}*/
+
+dt, dd {
+	padding: 0.4em;
+	border-width: 1px 1px 0;
+	border-style: solid;
+	border-color: #005508;
+}
+
+dt {
+	background-color: #cff9c2;
+	font-weight: 700;
+}
+
+dd {
+	margin-bottom: 0.6em;
+	background-color: #ecffe6;
+	border-width: 1px;
+}
+
+.retired {
+	font-weight: 700;
+	color: #135c00;
+}
+
+.alias {
+    margin: 0.4em 0 0;
+    font-size: 74%;
+    font-weight: 700;
+}
+
+#userNotes {
+	margin: 0.6em 0;	
+}
+
+#userNotesContainer {
+	padding: 0.6em;
+	background-color: #cecece;
+	border-width: 0 1px;
+	border-style: solid;
+	border-color: #666;
+}
+
+.removeDude {
+	float: right;
+	width: 100px;
+	text-align: right;
+}
+
+ul#twitter_update_list li {
+    word-wrap: break-word;
+}
+
+#show_thread {
+    list-style: none outside none;
+}
+
+.post_item {
+    margin-bottom: 1.6em;
+    border-bottom: 1px solid #005508;
+    float: left;
+}
+
+.thread_author {
+    width: 212px;
+    float: left;
+    line-height: 3.4em;
+}
+
+.thread_content {
+    width: 433px;
+    float: left;
+}
+
+.thread_author p.user_p {
+    margin-bottom: 2.0em;
+    font-size: 80%;
+}
+
+.thread_author .avatar {
+    margin-right: 0.6em;
+    float: left;
+}
+
+.closed
+{
+    font-size: 120%;
+    font-weight: 700;
+    color: #c00;
+}

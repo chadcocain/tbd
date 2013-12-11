@@ -1,0 +1,1179 @@
+*{margin: 0 auto; padding: 0;}
+body {
+background:#999999;
+color:#000000;
+font-family:Arial Black;
+font-size:10pt;
+margin: 0 auto;
+padding: 0;
+/*text-align:center;*/
+}
+
+.size1of7{width: 14.28%;}
+.size6of7{width: 85.68%;}
+.size5of7{width: 71.4%;}
+.size3of7{width: 42.50%;}
+.size4of7{width: 57.50%;}
+.size2of7{width: 28.56%;}
+.size4of9{width: 44.44%;}
+.size5of9{width: 55.56%;}
+.size2of8{width: 25%;}
+.size1of10{width: 10%;}
+.size2of10{width: 20%;}
+.size3of10{width: 30%;}
+.size1of6{width: 16.66%;}
+.size2of6{width: 33.32%;}
+.size1of8{width: 12.5%;}
+
+.fltleft{float: left;}
+.fltright{float: right;}
+
+input.hidden {border: none;}
+input, textarea, select {border: 1px solid #cccccc; background: #ffffff; padding: 2px 0 2px 0;}
+
+
+/*input.btn{background: #0CAE27; border: 1px solid #999999; color: #ffffff; font-size: 9pt; font-weight: bold;}*/
+
+.z_mod_const{border:1px solid #E3E3E3; padding: 0; margin: 10px 0 10px 10px; overflow: hidden; background:url(../images/under_construction.png) no-repeat right bottom; height: 450px;}
+
+/*Don't use h7 for any heading as it has been used for tabber*/
+.page h1, .page_qp h1{font-family:Arial Black; font-stretch:normal; font-size: 15pt; font-style:normal; /*text-align:left;*/ text-decoration:none; letter-spacing:normal; margin: 0; padding: 0; color: #000000;}
+.page h2, .page_qp h2{color:#017316; font-family:Arial,Helvetica,sans-serif; font-size:13pt; font-weight:bold; padding:0; text-align:left; text-transform: uppercase;}
+.page h3{font-family: Arial,Helvetica,sans-serif;  font-size: 10pt; color: #000; line-height: normal; font-weight: bold; margin: 5px 0 0 0; padding: 0;}
+.page h4, .page_qp h4{font-family: Arial,Helvetica,sans-serif; font-size: 10pt; color: #000; line-height: normal; font-style: normal; margin: 0; padding: 0;}
+
+.page h2 span{color:#017316; font-family:Arial,Helvetica,sans-serif; /*font-size:15pt;*/ font-weight:bold; text-align:left; text-transform: uppercase;}
+
+.ftlink{font-family: Arial,Helvetica,sans-serif;  font-size: 10pt; color: #000; line-height: normal; font-weight: bold; margin: 5px 0 0 0; padding: 0;}
+.ftlink a, .ftlink a:link, .ftlink a:active, .ftlink a:visited {font-family: Arial,Helvetica,sans-serif; color:#03268C; font-weight: bold; text-decoration:none;}
+.ftlink a:hover {font-family: Arial,Helvetica,sans-serif; color:#03268C; font-weight: bold; text-decoration:underline;}
+a.premium_icon, .premium_icon{background:url(http://staticzacks.net/images/zacks/logos/premium_18x14.png) no-repeat right; padding: 0 22px 0 0;}
+.arrow_icon{background:url(../images/round_arrow.gif) no-repeat left; padding: 0 0 0 20px;}
+
+.page .vidlink{background:url(http://staticzacks.net/images/zacks/icons/video_19x12.gif) no-repeat left; padding: 0 0 0 22px;}
+/*.page h6{font-family: Arial,Helvetica,sans-serif; font-size: 10pt; color: #000; line-height: normal; font-style: normal; margin: 0; padding: 0;}*/
+span{font-family: Arial,Helvetica,sans-serif; color: #000; line-height: normal;}
+.rightCol p.bodytext{font-family: Arial,Helvetica,sans-serif; font-size: 10pt; padding: 0; margin: 10px 0 0 0; color: #000; line-height: normal;}
+.ranklink{color: #03268C; text-align: left; font-weight: normal; text-decoration: none; margin:0 0 3px 0; }
+p{font-family: Arial,Helvetica,sans-serif; font-size: 10pt; padding: 0; margin: 2px 0 0 0; color: #000; line-height: normal;}
+.topspc{padding: 10px 0 0 0;}
+
+.feedback{color:#DF6514; font-size:14pt; font-weight:normal; text-align:center;}
+.feedbacklink{color:#DF6514; font-size:14pt; font-weight:bold; text-align:center; text-decoration: none; margin: 5px 0 0 10px; padding: 0 0 10px 0;}
+.downhgt{margin: 5px 0 0 0;}
+.mugshot{margin: 5px 10px 0 0; float: left;}
+.imgright_float{margin: 5px 0 0 30px; float: right;}
+
+
+a, a:link, a:active, a:visited {font-family: Arial,Helvetica,sans-serif; color:#03268C; text-decoration:none;}
+a:hover {font-family: Arial,Helvetica,sans-serif; color:#03268C; text-decoration:underline;}
+strong{font-family: Arial,Helvetica,sans-serif; color: inherit;}
+em{font-family: Arial,Helvetica,sans-serif; padding: 0; margin: 0;}
+img{border: none;}
+b{font-family: Arial,Helvetica,sans-serif; font-size: 10pt;}
+
+.sponsored{border: none; padding: 5px 0 30px 0;}
+
+.textcolor {color:#D17603;}
+input.serchinput{width: 294px; border: 1px solid #7f9db9; background: #fff;  padding: 2px 2px 3px 8px; color: gray;}
+input.pfpmodule{width: 170px; border: 1px solid #7f9db9; background: #fff;  padding: 2px; margin: 0 0 0 5px;}
+input.mutual{width: 150px; border: 1px solid #7f9db9; background: #fff;  padding: 2px;}
+/*input.searchbutton{background: url(../images/search_button.jpg) no-repeat; width: 67px; height: 22px; margin: 0 0 0 10px; color: #fff; text-align: center; font-weight: bold;font-family: Arial,Helvetica,sans-serif;}*/
+input.pfpbutton{background: url(http://staticzacks.net/images/zacks/buttons/blue_button.png) no-repeat; width: 68px; height: 22px; margin: 0; color: #fff; text-align: center; font-weight: bold;font-family: Arial,Helvetica,sans-serif; padding: 0 0 10px 0;}
+input.logininput{width: 130px; border: 1px solid #7f9db9; background: #fff;  padding: 2px;}
+.unit{font-family: Arial,Helvetica,sans-serif;}
+.z_loginsec{display: none; width: 480px; position: absolute; background: #E3E3E3; padding: 0 5px 5px 5px; margin: 10px 0 0 80px; border: 1px solid #4a754a;}
+.z_logclose{top: 0px; float: right;}
+
+
+.page {background:#ffffff none repeat scroll 0 0; width: 990px; padding:0; margin: 0 auto; overflow: hidden;}
+/*.header, .content, .footer{font-family: Arial,Helvetica,sans-serif; display: block;}*/
+.rightCol{ width: 330px;}
+.leftCol{width: 205px;} /* Left navigation width increased */
+
+.head .mod{margin: 0; padding: 0;}
+.z_mod_right{border:1px solid #E3E3E3; padding: 5px 10px 10px 10px; margin: 10px 10px 0 10px;}
+.z_mod_right_visitor{border:1px solid #716405; padding: 0; margin: 10px 10px 0 10px;}
+.z_mod_right_rss{border:1px solid #E3E3E3; padding: 0; margin: 10px 10px 0 10px;}
+.z_mod{border:1px solid #E3E3E3; margin: 0 0 10px 0; padding: 5px 10px 10px 10px; margin: 10px 0 0 10px; overflow: hidden;}
+.z_mod_cal{border:1px solid #E3E3E3; padding: 5px 4px 10px 4px; margin: 10px 0 0 5px; overflow: hidden;}   /*** Calendar module ***/
+.z_panel{border:1px solid #E3E3E3; margin: 0; padding: 10px; margin: 0 0 0 10px; background: #E8E8E8;}
+/*.z_mod .hd, .z_mod_right .hd, .z_panel .hd{color:#017316; font-family:Arial,Helvetica,sans-serif; font-size:15pt; font-weight:bold; padding:0; text-align:left; text-transform: uppercase;}*/
+.z_mod_right_visitor .hd{background: #c29602;}
+.z_mod_right_visitor h2{color:#000000; font-family:Arial,Helvetica,sans-serif; font-size:18px; font-weight:bold; padding:0; text-align:left;text-transform: none;}
+.z_mod_right_visitor .hd, .z_mod_right_visitor .bd, .z_mod_right_visitor .ft{margin: 0; padding: 3px;}
+.z_mod_right_visitor p{font-size: 9pt; font-weight: normal; line-height: normal;}
+.z_mod_right_visitor .ft span{color: #929292; font-size: 9px; font-weight: bold; line-height: normal;}
+.z_mod .hd span, .z_mod_right .hd span, z_mod_right_visitor .hd span, .z_panel .hd span{font-family: Arial,Helvetica,sans-serif; color: #000; line-height: normal; font-size: 10pt;text-transform: none;}
+.foot{border: none; padding: 0; font-family: Arial,Helvetica,sans-serif; margin: 10px 0 0 0;}
+
+/*.head .z_top_bar,*/.head .z_top_bar_right {background:#0CAE27; color:#fff; margin: 0; height: 18px; padding: 2px 5px 2px 5px;}
+.logo{float: left; padding: 25px 0 15px 20px; width: 249px;}
+.navigation {height:30px; margin:0; padding:0 0 1px;}
+.searchbox{background: #E3E3E3; padding: 8px 0 0 0; width: 100%; height: 28px;}
+.sf_pos{float: right; padding-right: 10px;}
+
+/**********Positive Negative icon images and colors*********/
+.positive{background: url(http://staticzacks.net/images/icons/arrows/green/up.png) no-repeat right; padding: 0 10px 0 0; font-family: Arial,Helvetica,sans-serif; vertical-align: middle; border: none; font-size: 10pt; font-weight: normal;}
+.negative{background: url(http://staticzacks.net/images/icons/arrows/red/down.png) no-repeat right; padding: 0 10px 0 0; font-family: Arial,Helvetica,sans-serif; vertical-align: middle; border: none; font-size: 10pt; font-weight: normal;}
+.blank{padding: 0 10px 0 0; font-family: Arial,Helvetica,sans-serif; vertical-align: middle; border: none; font-size: 10pt; font-weight: normal;}
+.positive_left{background: url(http://staticzacks.net/images/icons/arrows/table/newzp_up.gif) no-repeat left; padding: 0 0 0 18px; font-family: Arial,Helvetica,sans-serif; vertical-align: middle; border: none;}
+.negative_left{background: url(http://staticzacks.net/images/icons/arrows/table/newzp_down.gif) no-repeat left; padding: 0 0 0 18px; font-family: Arial,Helvetica,sans-serif; vertical-align: middle; border: none;}
+.pos{color: green;}
+.neg{color: #ff0000;}
+
+.z_top_bar ul{margin: 0 0 0 15px; padding: 0;}
+.z_top_bar li{font-family: Arial,Helvetica,sans-serif; display: inline; list-style-type: none; font-size: 13px; float: left; font-weight: bold; color: #000000; background: #ffffff; margin-right: 4px; }
+.z_top_bar li a{font-family: Arial,Helvetica,sans-serif;  padding: 0 5px 0 5px; font-size: 13px; font-weight: bold; color: #000000; }
+.z_top_bar li a:hover {text-decoration: underline; }
+
+.z_top_bar_right ul{margin: 0; padding: 0; float: right;}
+.z_top_bar_right li{font-family: Arial,Helvetica,sans-serif; display: inline; list-style-type: none; font-size: 9pt; float: left; font-weight: bold; color: #fff; }
+.z_top_bar_right li a{font-family: Arial,Helvetica,sans-serif;  padding: 0 5px 0 5px; font-size: 9pt; font-weight: bold; color: #fff; }
+.z_top_bar_right li a:hover {text-decoration: underline; }
+
+
+.z_featured{margin: 0 0 8px 0; width: 100%; overflow: hidden;}
+
+.z_table_data{width: 100%; vertical-align: top; border-spacing: none; border-collapse: collapse; font-family: Arial,Helvetica,sans-serif;}
+.z_table_data th, .z_table_data td {font-family: Arial,Helvetica,sans-serif; vertical-align: middle; border: none; font-size: 9pt;}
+.z_table_data td{margin: 0px; border-collapse: collapse; color: #000; font-weight: normal;  border-bottom: 1px solid #ccc; padding-top: 2px;}
+.z_table_data th{font-weight: bold; padding-top: 2px; /*background: #e3e3e3;*/}
+.z_table_data tr.d0 td{background: #ffffff;}
+.z_table_data tr.d1 td{background: #F4F7FD;}
+
+.chart_table_data{width: 100%; vertical-align: top; border-spacing: none; border-collapse: collapse; font-family: Arial,Helvetica,sans-serif; margin: 0 0 20px 0;}
+.chart_table_data th, .chart_table_data td {font-family: Arial,Helvetica,sans-serif; vertical-align: middle; border: none; font-size: 10pt;}
+.chart_table_data td{margin: 0px; border-collapse: collapse; color: #000; font-weight: normal;  border-bottom: 1px solid #ccc; padding-top: 5px; padding-bottom: 5px;}
+.chart_table_data th{font-weight: bold; padding-top: 2px; /*background: #e3e3e3;*/}
+.chart_table_data tr.d0 td{background: #ffffff;}
+.chart_table_data tr.d1 td{background: #F4F7FD;}
+
+.z_normal{width: 100%; vertical-align: top; border-spacing: none; border-collapse: separate; font-family: Arial,Helvetica,sans-serif; font-size: 9pt; color: #000; line-height: normal;}
+.z_normal th, .z_normal td {font-family: Arial,Helvetica,sans-serif; vertical-align: top; border: none; font-size: 10pt; padding: 0 2px;}
+.z_normal td{margin: 0px; border-collapse: separate ; color: #000; font-weight: normal; padding: 2px 0; vertical-align: middle;}
+
+.z_toplist{margin: 0; padding: 0;}
+.z_toplist ul{margin: 0; padding: 0;}
+.z_toplist li{list-style-type: square; margin:4px 0 0 16px; font-family: Arial,Helvetica,sans-serif; font-size: 10pt; font-weight: normal; color: #000; }
+
+.page ul.z_footer {margin: 0; padding: 0;}
+.page .z_footer li {list-style-type:none; background: url(http://staticzacks.net/images/zacks/icons/bullet.png) no-repeat 0 8px; padding: 0 0 0 9px; margin:4px 0 0 0; width: 100%; font-family: Arial,Helvetica,sans-serif; border: none; font-size: 10pt; font-weight: bold; color: #000; }
+
+.page ul.z_normallist {margin: 0; padding: 0;}
+.page li.z_normallist {list-style-type: none; margin:0; padding: 0; width: 100%; font-family: Arial,Helvetica,sans-serif; vertical-align: middle; border: none; font-size: 10pt; float: left; font-weight: bold; color: #000; }
+
+.footheadtxt{border-top: 3px solid #E3E3E3;}
+.footheadtxt h2{color:#017316; font-family:Arial,Helvetica,sans-serif; font-size:15pt; font-weight:bold; padding:3px 0 0 0; text-align:left; text-transform: uppercase;}
+.companyimg{width: 150px; height: 25px; border: none;}
+.z_feedback{border: 3px solid #DF6514; padding: 8px 0; text-align: center; color: #DF6514; font-size: 14pt; margin: 3px 10px 5px 10px;}
+
+.z_footmod{ padding: 1px 0 7px 0; margin: 9px 10px 0 10px;}
+.z_footmod .footpartners{margin: 0 10px 0 0;}
+.z_footmodsub{ padding:5px 10px 10px; margin: 5px 10px 0 0;}
+.z_footleft{margin-left: 10px;}
+.z_footmodlink{ padding: 1px 0 0 0; margin: 8px 10px 0 10px;}
+.subslist{background: #E8E8E8;}
+.copyrightbar{color: #086118; background: #E8E8E8; padding: 10px; margin-bottom: 10px;}
+
+.z_footernav{font-family: Arial,Helvetica,sans-serif;}
+.z_footernav ul{margin: 0; padding: 0; text-align: center;}
+.z_footernav li{margin: 0; display: inline;  padding: 0 4px;  font-family: Arial,Helvetica,sans-serif; list-style-type: none; border-right:none;}
+.z_footernav li.z_highlight{font-family: Arial,Helvetica,sans-serif; color:#D27603;}
+.z_footernav_second{  margin: 2px 0; padding: 0 0 0 250px; }
+
+p.copyright{color: #086118; text-align: left; font-weight: normal; text-decoration: none; margin:0 0 3px 0; }
+
+.footernav ul, z_top_bar {margin: 0px; padding-left: 0px; display: inline;}
+
+.z_footernav li:before,
+/*.z_top_bar li:before,*/
+.z_top_bar_right li:before {content: " | ";}
+
+.z_footernav li:first-child:before,
+/*.z_top_bar li:first-child:before,*/
+.z_top_bar_right li:first-child:before {content: ""; }
+
+.z_vid{width: 300px; height:345px;}
+
+.z_topstory{margin-left: 15px;}
+.z_feature_story{margin-top: 5px;}
+.z_rightcolumn_spc{margin: 0 0 0 16px;}
+
+.head_ad{width: 645px; height: 90px; margin: 10px 0 10px 0;}
+
+.z_mod_blank{margin: 0; padding: 0 0 0 1px; overflow: hidden;}
+.z_mod_left_blank{margin: 10px 20px 10px 0; padding: 0 0 0 1px; overflow: hidden;}
+.z_mod_right_blank{margin: 10px 0 10px 20px; padding: 0 0 0 1px; overflow: hidden;}
+.homefoot_zpart{width:100%; float:left;}
+
+/**************************MARKET***************************/
+.tale{font-size: 9pt; font-weight: normal; padding-top: 2px;}
+
+.strong{font-family: Arial,Helvetica,sans-serif;  font-size: 10pt; color: #000; line-height: normal; font-weight: bold;}
+.strong a, .strong a:link, .strong a:active, .strong a:visited {font-family: Arial,Helvetica,sans-serif; color:#03268C; font-weight: bold; text-decoration:none;}
+.strong a:hover {font-family: Arial,Helvetica,sans-serif; color:#03268C; font-weight: bold; text-decoration:underline;}
+
+.z_table_wh{border-spacing: none; border-collapse: collapse; font-family: Arial,Helvetica,sans-serif; border-top: 1px solid #FF6600; border-bottom: 1px solid #FF6600;}
+.z_table_wh th, .z_table_wh td {font-family: Arial,Helvetica,sans-serif; vertical-align: middle; border: none; font-size: 10pt;}
+
+.pfpimg{width: 100px; height: 40px;}
+
+/************************Commentary*****************************/
+.z_com_arc_det{font-family:Arial,Helvetica,sans-serif; color: gray; font-size: 9pt; font-weight: normal;}
+.z_com_post{font-family:Arial,Helvetica,sans-serif; color: gray; font-size: 9pt; font-weight: bold;}
+.z_comm_arc{margin: 10px 10px 10px 0;;}
+.page h5{color:#000000; font-family:Arial,Helvetica,sans-serif; font-size:14pt; font-weight:bold; padding:0;/* text-align:left;*/ text-transform: normal;}
+.com_post{font-family:Arial,Helvetica,sans-serif; color:green; font-size:9pt; font-weight:normal;}
+
+.page .z_email{background:url(http://staticzacks.net/images/icons/commentary/icon8.jpg) no-repeat left top; padding: 0 10px 0 16px;}
+.page .z_alert{background:url(http://staticzacks.net/images/icons/general/warning.png) no-repeat left top; padding: 0 10px 0 18px;}
+.page .z_print{background:url(http://staticzacks.net/images/icons/commentary/print.png) no-repeat left top; padding: 0 10px 0 15px;}
+.page .z_rate_pos{background:url(http://staticzacks.net/images/icons/commentary/hand.png) no-repeat left top; padding: 0 10px 0 16px;}
+.page .z_rate_neg{background:url(http://staticzacks.net/images/icons/commentary/hand_dowm.png) no-repeat left top; padding: 0 10px 0 16px;}
+.page .z_share{background:url(http://staticzacks.net/images/icons/commentary/share.png) no-repeat left top; padding: 0 10px 0 16px;}
+.page .z_comments{background:url(http://staticzacks.net/images/icons/general/comment.png) no-repeat left top; padding: 0 10px 0 16px;}
+.page .z_rss{background:url(http://staticzacks.net/images/icons/file_types/rss.png) no-repeat left top; padding: 0 10px 0 16px;}
+.page .z_link{background:url(http://staticzacks.net/images/icons/commentary/icon7.jpg) no-repeat left top; padding: 0 10px 0 18px;}
+.page .z_report{background:url(http://staticzacks.net/images/icons/general/report.png) no-repeat left top; padding: 0 10px 0 18px;}
+.zcom_mod{border:1px solid #E3E3E3; margin: 0 0 10px 0; padding: 5px 10px 10px 10px; margin: 10px 0 0 10px; overflow: hidden;}
+.zrank_mod{border:1px solid #E3E3E3; padding: 5px 10px 10px 10px; margin: 10px; overflow: hidden;}
+.zcom_mod p{padding: 10px 0 0 0; line-height: 20px;}
+.zrank_mod p{padding: 0 0 6px 0;}
+
+hr{border: 1px solid #cccccc; padding: 0; margin: 10px 0;}
+ul, li, blockquote, i{font-family: Arial,Helvetica,sans-serif;}
+
+.z_comlink{width: 350px; position: absolute; padding: 0 5px 5px 5px; margin: 0;}
+
+.com_comments{border:1px solid #CCCCCC; color:#555555; font-family:Arial; font-size:11pt; height:76px; margin:5px 0 5px 0; width:625px;}
+.com_counttxt{color: #ff0000; font-weight: bold;}
+
+.com_sendform{background: none repeat scroll 0 0 #FFFFFF; margin: 0 auto; overflow: hidden; padding: 0; width: 628px;}
+.com_sendform_body{background:#FFFFFF;}
+.comlink{width: 45px; float: left;}
+.comlinks{width: 65px; float: left;}
+.comalign{margin-left: 45px;}
+
+/****************************Education****************************/
+
+.page h6{font-family: Arial,Helvetica,sans-serif; font-size: 10pt; color: #086118; line-height: normal; font-weight:bold; font-style: normal; margin: 7px 0 0 0; padding: 0;}
+.page .vidlink_show{background:url(http://staticzacks.net/images/zacks/icons/video_19x12.gif) no-repeat left; padding: 0 0 0 22px; margin: 0 0 0 60px;}
+
+/*************************ETF****************************/
+.z_tic_mod{border:1px solid #E3E3E3; margin: 0; padding: 5px 10px 10px 10px; margin: 10px 0 0 10px; background: #E8E8E8;}
+.uppercase{text-transform: uppercase;}
+
+/*********************Sector Rank***********************/
+
+.zsr_table_data{width: 100%; vertical-align: top; border-spacing: none; border-collapse: collapse; font-family: Arial,Helvetica,sans-serif;}
+.zsr_table_data th, .zsr_table_data td {font-family: Arial,Helvetica,sans-serif; vertical-align: middle; border: none; font-size: 9pt;}
+.zsr_table_data td{margin: 0px; border-collapse: collapse; color: #000; font-weight: normal;  border-bottom: 1px solid #ccc; padding-top: 5px;}
+.zsr_table_data th{font-weight: bold; padding-top: 5px;}
+
+.zsr_order{color: #929292; font-size: 8pt; font-weight: normal; line-height: 35px; border-bottom: 1px solid #cccccc;}
+
+/*tooltip start*/
+#text {margin:50px auto; width:500px}
+.hotspot {color:#000000; padding-bottom:1px; cursor:pointer; font-size: 9pt;}
+
+#tt {position:absolute; display:block; background:url(../images/tt_left.gif) top left no-repeat}
+#tttop {display:block; height:5px; margin-left:5px; background:url(../images/tt_top.gif) top right no-repeat; overflow:hidden}
+#ttcont {display:block; padding:2px 12px 3px 7px; margin-left:5px; background:#666; color:#FFF}
+#ttbot {display:block; height:5px; margin-left:5px; background:url(../images/tt_bottom.gif) top right no-repeat; overflow:hidden}
+/*tooltip end*/
+
+/*******************Premium**********************/
+.z_premium_mod{padding: 5px 10px 10px 10px; margin: 10px 10px 10px 0; border: 1px solid #e3e3e3;}
+
+.z_mod_premium {margin: 10px 0 10px 10px; border: 1px solid #716405;}
+.z_mod_premium .hd{background: #c29602; margin: 0; padding: 3px;}
+.z_mod_premium h2{color:#000000; font-family:Arial,Helvetica,sans-serif; font-size:18px; font-weight:bold; padding:0; text-align:left;text-transform: none;}
+
+.zer_pre{background: url(http://staticzacks.net/images/zacks/zer_bg_image.png) no-repeat right top; width: 100px; height: 121px; float: right;}
+.zer_pre input{background: #ffffff; margin:65px 0 0 10px;}
+
+.topspc_premium{padding: 20px 0 0 0;}
+
+/************************* Quote *************************/
+/*.z_mod_sub{padding: 5px 10px 10px; margin: 10px 0 0 10px; overflow: hidden; background: #f4f7fd; border: 1px solid #b4d2ec;}*/
+
+/*.z_left_subnav{margin: 0; padding: 0;}
+.z_left_subnav ul{margin: 0 0 15px 0; padding: 0;}
+.z_left_subnav li{list-style-type: none; margin:0; padding: 0; font-family: Arial,Helvetica,sans-serif; font-size: 10pt; font-weight: bold; color: #017316; }
+.z_left_subnav li a, .z_left_subnav li a:hover{font-family: Arial,Helvetica,sans-serif; font-size: 10pt; font-weight: bold; color: #03268C; text-decoration: none;}
+.z_left_subnav li a:hover{text-decoration: underline;}
+.z_lftsub_select a{color:#000000; text-decoration:underline;}*/
+.z_mod_sub{padding: 0; margin: 10px 0 0 10px; overflow: hidden; background: #f4f7fd; border: 1px solid #b4d2ec;}
+
+.z_left_subnav ul{list-style: none; margin: 0 0 10px 0; padding: 0;}
+.z_left_subnav ul li{list-style-type: none; margin:0; padding: 2px 10px 0 10px; font-family: Arial,Helvetica,sans-serif; font-size: 10pt; font-weight: bold; color: #017316;}
+.z_left_subnav li a{font-family: Arial,Helvetica,sans-serif; font-size: 10pt; font-weight: bold; color: #03268C; text-decoration: none;}
+.z_left_subnav li.selected{font-size: 10pt; text-decoration: none; color: #03268C; background: #E3E3E3;}
+.z_left_subnav li a.selected{font-family: Arial,Helvetica,sans-serif; font-size: 10pt; font-weight: bold; color: #017316; text-decoration: none;}
+.z_left_subnav li a:hover{font-family: Arial,Helvetica,sans-serif; font-size: 10pt; font-weight: bold; color: #03268C; text-decoration: underline;}
+
+.pos{color: green;}
+.neg{color: #ff0000;}
+
+/*input.quote_btn{background:#e56116;  border-right: 2px solid #c05a18; border-bottom: 2px solid #c05a18; border-left: 2px solid #f2a86b; border-top: 2px solid #f2a86b; color: #ffffff; font-size: 9pt; font-weight: bold; text-transform: uppercase; text-align: center; margin: 0; padding: 5px;}
+input.pre_btn{background:#e56116;  border-right: 2px solid #c05a18; border-bottom: 2px solid #c05a18; border-left: 2px solid #f2a86b; border-top: 2px solid #f2a86b; color: #ffffff; font-size: 9pt; font-weight: bold; text-transform: uppercase; text-align: center; margin: 0; padding: 1px;}*/
+.compperform{font-size: 9pt; color: #000000; font-weight: normal; margin-top: 15px;}
+
+.z_quotehead{margin: 10px 10px 0 10px;}
+.z_quotemod, .z_quoteticker, .z_quoteticker_qp, .z_quotemodleft, .z_quotemodright, .z_aows_mod{border:1px solid #E3E3E3; padding: 5px 10px 10px 10px; margin: 10px 10px 0 10px; overflow: hidden;}
+.z_quotemodpreresearch{border:1px solid #e3e3e3; padding: 5px 10px 10px 10px; margin: 10px 10px 0 0; overflow: hidden; background: #e8fbeb;}
+.z_mod_qt{border:1px solid #E3E3E3; padding: 5px 10px 10px 10px; margin: 10px 10px 0 0; overflow: hidden;}
+.z_quotemoddq{border:1px solid #e3e3e3; padding: 5px 10px 10px 10px; margin: 10px 38px 0 39px; overflow: hidden;}
+.z_quotemodprer{border:none; padding: 5px 10px 10px 5px; margin: 4px 38px 0 39px; overflow: hidden;}
+.z_quoteticker, .z_quoteticker_qp{background: #f4f7fd; border:1px solid #b4d2ec;}
+.z_quotemodright{margin: 10px 10px 0 0;}
+.z_quotemodright_special{border: 0; padding: 5px 10px 10px 10px; margin: 0 0 0 0; overflow: hidden;}
+
+.z_quoteticker h3{font-family: Arial,Helvetica,sans-serif;  font-size: 12pt; color: #000; line-height: normal; font-weight: bold; margin: 5px 0 0 0; padding: 0;}
+.z_quoteticker_qp h3{font-family: Arial,Helvetica,sans-serif;  font-size: 10pt; color: #000; line-height: normal; font-weight: bold; margin: 5px 0 0 0; padding: 0;}
+.z_quoteticker span, .z_quoteticker_qp span{font-family: Arial,Helvetica,sans-serif; font-weight: bold;}
+
+.z_tic_news{font-family: Arial,Helvetica,sans-serif; font-size: 9pt; margin: 4px 6px 4px 0; padding: 5px 15px 5px 15px; text-align: center;}
+.z_tic_news_good{border: 1px solid #33cc33; color: #33cc33;}
+.z_tic_news_bad{border: 1px solid #ff0000; color: #ff0000;}
+.z_tic_news_open{border: 1px solid #666666; color: #666666;}
+
+.z_tic_good{background: url(../images/greenSentimentWidgetHighlight_whiteBG.png) no-repeat right top; width: 30px; height: 25px;}
+.z_tic_bad{background: url(../images/redSentimentWidgetMouse_whiteBG.png) no-repeat right top; width: 30px; height: 25px;}
+.z_tic_open{background: url(../images/greySentimentWidgetMouse_whiteBG.png) no-repeat right top; width: 30px; height: 25px;}
+
+.z_tic{font-family: Arial,Helvetica,sans-serif; font-size: 7pt; padding: 4px 0 0 6px;}
+.z_ticbad{font-family: Arial,Helvetica,sans-serif; font-size: 7pt; padding: 4px 0 0 9px;}
+
+.z_mod_left_rating{border:1px solid #c2a67e; padding: 0; margin: 10px 0 0 10px;}
+.z_mod_left_rating .hd{background: #fd9a01;}
+.z_mod_left_rating h2{color:#ffffff; font-family:Arial,Helvetica,sans-serif; font-size:11pt; font-weight:bold; padding:0 4px 0 4px; text-align:left;text-transform: none;}
+.z_mod_left_rating .hd, .z_mod_left_rating .bd, .z_mod_left_rating .ft{margin: 0; padding: 3px;}
+
+/*.z_mod_pnp{border:1px solid #E3E3E3;  padding: 5px 21px 10px 21px; margin: 10px 0 0 10px; overflow: hidden;}*/
+
+label {padding:0 15px 0 0; margin: 2px 0 0 0; line-height:30px; display:block; font-size:8pt; font-style:normal; font-weight:bold; text-align:left;}
+.z_chkbox{border: none;}
+input.signupbutton{background: url(../images/search_button.jpg) no-repeat; width: 67px; height: 22px; margin: 0; border: none; color: #fff; text-align: center; font-weight: bold;font-family: Arial,Helvetica,sans-serif;}
+
+.z_mod_pre{ padding: 0; margin: 5px auto; width: 88%;}
+.z_mod_pre .hd{background: #007316;}
+.z_mod_pre h2{color:#ffffff; font-family:Arial,Helvetica,sans-serif; font-size:15pt; font-weight:bold; padding:0 4px 0 4px; text-align:left;text-transform: uppercase;}
+.z_mod_pre .hd, .z_mod_pre .bd{margin: 0; padding: 3px; border:1px solid #384d3e;}
+.z_mod_pre .ft{margin: 0; padding: 3px;}
+
+.z_mod_pnp{ padding: 0; margin: 10px 27px 0 28px;}
+.z_mod_pnp .hd{background: #ffffff; margin: 0; padding: 0;}
+.z_mod_pnp .bd{margin: 0; padding: 0 3px 3px 3px; border:1px solid #384d3e; border-bottom: none;}
+.z_mod_pnp .ft{margin: 0; padding: 3px; border:1px solid #384d3e; border-top: none;}
+
+.z_mod_eve{border:1px solid #E3E3E3; padding: 5px 10px 10px 5px; margin: 10px 0 10px 10px; overflow: hidden;}
+
+/*Search module styles*/
+
+#search-wrap input{width:400px; font-size:16px; color:#999999; padding:6px; border:solid 1px #999999;}
+
+#results{width:302px; border:solid 1px #e3e3e3; position: absolute; display: none; text-align: right; font-weight: bold; background: #f3f3f3;}
+#results ul, #results li{padding:0; margin:0; border:0; list-style:none; z-index: 1000;}
+#results li {border-top:solid 1px #DEDEDE;}
+#results li a{display:block; padding:4px; text-decoration:none; color:#086118; font-weight:bold; }
+#results li a small{display:block; text-decoration:none; color:#999999; font-weight:normal;}
+#results li a:hover{background:#FFFFCC;}
+#results ul {padding:6px;}
+.search1{padding: 8px 0 0;}
+/*Search module styles*/
+
+/************************Old Table Styles***************************/
+.datatable{margin: 5px 0 0 0; padding: 0; width: 100%; background: #ffffff; border-collapse: collapse; /*border-collapse:separate; border-collapse: inherit;*/}
+.datatable th, .datatable td{margin: 0; color: #000; font-family:arial; font-size: 8pt; font-style: normal; font-variant: normal; border: 1px solid #8B9F8E;}
+.datatable th{font-weight: bold; background: #cccccc; padding: 2px 2px;}
+.datatable td{padding-top: 2px; padding-bottom: 2px; padding-left: 2px;}
+.datatable tr.row1 td{background-color: #EDF2ED;}
+
+.overflow{overflow: visible;}
+
+/*****************Rating Sprite CSS*******************/
+.sprite_block_rating{width: 75px; height: 15px; padding: 0; margin: 0 auto; border: none;}
+.rate_0{background: url(http://staticzacks.net/images/rating/rating.png) top left no-repeat; width: 75px; height: 15px; padding: 0;}
+.rate_1{background: url(http://staticzacks.net/images/rating/rating.png) 0 -15px no-repeat; width: 75px; height: 15px; padding: 0;}
+.rate_2{background: url(http://staticzacks.net/images/rating/rating.png) 0 -30px no-repeat; width: 75px; height: 15px; padding: 0;}
+.rate_3{background: url(http://staticzacks.net/images/rating/rating.png) 0 -45px no-repeat; width: 75px; height: 15px; padding: 0;}
+.rate_4{background: url(http://staticzacks.net/images/rating/rating.png) 0 -60px no-repeat; width: 75px; height: 15px; padding: 0;}
+.rate_5{background: url(http://staticzacks.net/images/rating/rating.png) 0 -75px no-repeat; width: 75px; height: 15px; padding: 0;}
+.rate_6{background: url(http://staticzacks.net/images/rating/rating.png) left bottom no-repeat; width: 75px; height: 15px; padding: 0;} /**** For Start rating images ****/
+
+.sprite_block_report{width: 81px; height: 14px; padding: 0; margin: 0 auto; border: none;}
+.rt_analyst{background: url(http://staticzacks.net/images/zacks/buttons/reports_2.png) 0px 0px no-repeat; width: 81px; height: 14px; padding: 0;}
+.rt_snapshot{background: url(http://staticzacks.net/images/zacks/buttons/reports_2.png) 0px -16px no-repeat; width: 81px; height: 14px; padding: 0;} /**** For Analysts and Snapshot button ****/
+
+.sprite_block_evecal{width: 69px; height: 17px; padding: 0; margin: 0 auto; border: none;}
+.ec_0{background: url(../images/nav_136x14.png) 0px 0px no-repeat; width: 69px; height: 17px; padding: 0;}
+.ec_1{background: url(../images/nav_136x14.png) -69px 0px no-repeat; width: 69px; height: 17px; padding: 0;} /**** For Events Calendar Prev next button ****/
+
+/*****************Mutual Fund CSS (Done by Subhranil)*******************/
+.page .mf_tab{margin: 5px 0; padding: 0; border-bottom: 2px solid #017316; float: left; width: 100%;} /**** For Mutual Fund Ranked Fund Green TAB ****/
+.mf_tab ul{margin: 0; padding: 0;}
+.mf_tab li{list-style-type: none; float: left; margin: 0; padding: 0;}
+.mf_tab li a{padding: 2px 23px; margin: 0; border-bottom: 2px solid #017316; font-family:arial; font-size: 10pt; text-align: center; font-weight: bold; text-decoration: none; color:#017316;}
+.mf_tab li a.select_mf{background: #017316; color: #fff; font-family:arial; font-size: 10pt; text-align: center; font-weight: bold; text-decoration: none;}
+
+.page .z_search{background:url(http://staticzacks.net/images/icons/general/search.png) no-repeat left center; padding: 0 10px 0 18px;}
+
+.mftable{margin: 5px 0 0 0; padding: 0; width: 94%; background: #ffffff; border-collapse: collapse; margin-left: 5%; margin-right: 1%; border: 1px solid #8B9F8E;}
+.mftable th{background: #cccccc; color: #000; font-family:arial; font-weight: bold; text-align: center; font-size: 9pt; margin: 0; padding: 0; border: none;}
+.mftable td{color: #000; font-family:arial; font-weight: bold; text-align: center; font-size: 9pt; margin: 0; padding: 0; border: none;}
+.mftable td.rank_1_num{background:url(http://staticzacks.net/images/zacks/rank/rank_1_bk_lt.png) repeat-x; height: 22px;}
+.mftable td.rank_2_num{background: url(http://staticzacks.net/images/zacks/rank/rank_2_bk_lt.png) repeat-x; height: 22px;}
+.mftable td.rank_3_num{background: url(http://staticzacks.net/images/zacks/rank/rank_3_bk_lt.png) repeat-x; height: 22px;}
+.mftable td.rank_4_num{background: url(http://staticzacks.net/images/zacks/rank/rank_4_bk_lt.png) repeat-x; height: 22px;}
+.mftable td.rank_5_num{background: url(http://staticzacks.net/images/zacks/rank/rank_5_bk_lt.png) repeat-x; height: 22px;}
+
+/** For the quote page tranparent div */
+.sb_trans,
+.screen_trans {position:absolute; display:none; background:url(http://staticzacks.net/images/transparentgif1x1.png) top left repeat;}
+
+.sb_trans{width:990px; height:1000px;}
+.screen_trans{width:620px; height:480px;}
+
+.groupbg {background:#F5FAFA;}
+/***********************Research Page (Done by Subhranil)***************************/
+.page .z_cart{background:url(http://staticzacks.net/images/icons/general/cart.png) no-repeat left top; padding: 0 10px 0 18px;}
+
+/****************Div for mask******************/
+.loadsearch_div{width: 380px; height: 30px; z-index:1000; position: absolute; background: url(http://staticzacks.net/images/transparentgif1x1.png) top left repeat;}
+.loader_div{width: 630px; z-index:1000; position: absolute; background: url(http://staticzacks.net/images/transparentgif1x1.png) top left repeat;}
+.load_comments{height:155px;}
+.load_commlist{height:85px;}
+.load_full{height:100%;}
+.load_innercom{text-align: center; padding-top: 65px;}
+.load_innercomlist{text-align: center; padding-top: 25px;}
+.load_search{text-align: center; padding-top: 3px;}
+
+/*****************Alignments********************/
+.left{text-align: left;}
+.right{text-align: right;}
+.center{text-align: center;}
+.sitemap ul li ul{padding: 0 0 0 15px;}
+.sitemap ul li ul li{color: #03268C;}
+/*.sitemap ul li ul linter;}*/
+
+/************** For 3-HOLD text (Done by Subhranil) ********************/
+.page .z_pre_number{font-family:Arial Black; font-size: 25pt; font-style:bold; margin: 0; padding: 0 7px 0 0; color: #000000; line-height: 28px;}
+.page .z_hold{font-family:Arial Black; font-size: 10pt; font-style:normal; text-transform: uppercase; margin: 0; padding: 0; color: #000000;}
+.z_rightspc{margin: 0 10px 0 0; }
+.z_botspc{margin-bottom: 20px; }
+.z_rankspc{margin-bottom: 10px; }
+
+div{font-family:Arial,Helvetica,sans-serif;}
+
+/********************Sitemap**********************/
+.sitemap{font-family: Arial,Helvetica,sans-serif; /*margin: 0 5px 0 0; border-right: 1px dotted #cccccc;*/}
+.sitemap ul{padding: 10px 0 0 0; margin: 0; /*list-style-image: url(../images/bullet-gray_sitemap.png); list-style-position:outside;*/}
+.sitemap ul li{display: block; font-weight: bold; margin-top: 5px; color: black;}
+.sitemap ul li a{font-weight: bold; color: black;}
+.sitemap ul li span{font-weight: bold;}
+/***Start of sub ul li***/
+.sitemap ul li ul{padding: 0 0 0 15px;}
+.sitemap ul li ul li{color: #03268C;}
+.sitemap ul li ul li a{font-weight: normal; color: #005A9C;}
+/***Start of 2nd sub ul li***/
+.sitemap ul li ul li ul li{font-weight: normal; margin-left: 10px;}
+.sitemap ul li ul li ul li a{font-weight: normal; margin-left: 5px; color: #005A9C;}
+
+.sitemap ul li span {padding-left: 10px; font-style: italic;}
+.sitemap ul li.s_done span {text-decoration: line-through; color: gray;}
+
+.siteicn{background-repeat: no-repeat; background-position: 0 0; background-image: url(http://staticzacks.net/images/zacks/icons/sitemap_icons.png); padding-left: 20px; height: 19px;}
+
+.s_not { background-position: 0 0;}
+.s_begin { background-position: 0 -19px;}
+.s_dev { background-position: 0 -38px;}
+.s_review { background-position: 0 -57px;}
+.s_done { background-position: 0 -76px;}
+.s_bullets { background-position: 0 -96px;}
+.s_devn { background-position: 0 -116px;}
+
+.sitspc{margin-right: 10px; font-size: 8pt; padding-top: 5px;}
+
+
+/***************jstable***************/
+ tr th .plc_holder{color: #cccccc;}
+.jstable td span{font-weight: bold;}
+.jstable thead th a, .jstable thead th a:hover{font-weight: bold; text-decoration: none; color: #000;}
+.bottom_border .jstable td{vertical-align: bottom; padding: 6px 0 0 0;}
+.bottom_border .jstable td.bottom_none{border-bottom: none;}  /********* class for jstable border-bottom: none (Done By Subhranil) ***********/
+.green_stripe .jstable td span.none_bold{font-weight: normal;}
+.jstable .compare,
+.jstable .compare:hover{background: url(http://staticzacks.net/images/zacks/compare.png) bottom no-repeat; height:95px;}
+
+.jstable .compare:hover{background: #eeeeee url(http://staticzacks.net/images/zacks/compare.png) bottom no-repeat;}
+
+.z_quotemodpreresearch{border:1px solid #e3e3e3; padding: 5px 10px 10px 10px; margin: 10px 10px 0 0; overflow: hidden; background: #e8fbeb;}
+.z_quotemoddq2{border:1px solid #e3e3e3; padding: 5px 10px 10px 10px; margin: 10px 10px 0 0; overflow: hidden;}
+
+.z_gr_montage{margin: 10px 10px 0 21px;}
+/*.plc_holder{color: #cccccc;}*/
+
+/********************quote brokerage report page (Done by Subhranil)**********************/
+.broker_pdf{background: url(http://staticzacks.net/images/zacks/icons/pdf_icon.png) no-repeat left top; padding: 8px 0 0 31px; margin-top: 10px; height: 25px;}
+.z_brok_left{width: 40%; float: left;}
+.z_brok_right{width: 60%; float: left;}
+
+/********************quote Equity Research page (Done by Subhranil)**********************/
+.q_topspc{margin: 25px 0 0 0;}
+
+/******************** Quote Financials Overview Page (Done by Subhranil)**********************/
+.q_mod_left_overview{margin: 0 20px 10px 0; padding: 0 0 0 1px; overflow: hidden;}
+.q_mod_right_overview{margin: 0 0 10px 20px; padding: 0 0 0 1px; overflow: hidden;}
+.q_mod_mid_overview{margin: 0 10px 10px 10px; padding: 0; overflow: hidden;}
+
+.z_quotemodleft p {padding:0 0 10px 0;}
+
+
+/* CSS Document */
+
+/* BUTTONS */
+
+.buttons a, .buttons button{display:block; float:left; margin:0 7px 0 0; background-color:#b4d2ec; border:1px solid #03268c; border-top:1px solid #657bba; border-left:1px solid #657bba; font-family:Arial,Helvetica,sans-serif; font-size:12px; line-height:130%; text-decoration:none; font-weight:bold; color:#565656; cursor:pointer; padding:1px 6px 1px 3px; /* Links */}
+.buttons button{width:auto;overflow:visible; padding:1px 6px 1px 3px; /* IE6 */}
+.buttons button[type]{padding:1px 6px 1px 3px; /* Firefox */ line-height:17px; /* Safari */}
+*:first-child+html button[type]{padding:1px 6px 1px 3px; /* IE7 */}
+.buttons button img, .buttons a img{margin:0 3px -3px 0 !important; padding:0; border:none; width:16px; height:16px;}
+
+
+/* STANDARD */
+
+button:hover, .buttons a:hover{ background-color:#dff4ff; border:1px solid #c2e1ef;color:#336699;}
+.buttons a:active{background-color:#6299c5; border:1px solid #6299c5; color:#fff;}
+
+/* POSITIVE */
+
+button.positiveb, .buttons a.positiveb{ color:#529214;}
+.buttons a.positiveb:hover, button.positiveb:hover{background-color:#E6EFC2; border:1px solid #C6D880; color:#529214;}
+.buttons a.positiveb:active{background-color:#529214; border:1px solid #529214; color:#fff;}
+
+/* NEGATIVE */
+
+.buttons a.negativeb, button.negativeb{color:#d12f19;}
+.buttons a.negativeb:hover, button.negativeb:hover{ background:#fbe3e4; border:1px solid #fbc2c4; color:#d12f19;}
+.buttons a.negativeb:active{background-color:#d12f19; border:1px solid #d12f19; color:#fff;}
+
+/* REGULAR */
+
+button.regularb, .buttons a.regularb{color:#03268c;}
+.buttons a.regularb:hover, button.regularb:hover{background-color:#dff4ff; border:1px solid #086218; border-top:1px solid #0fab24; border-left:1px solid #0fab24; color:#017316;}
+.buttons a.regularb:active{background-color:#6299c5; border:1px solid #6299c5; color:#fff;}
+
+.fieldbutton{display: block; width: 100%; margin-top: 5px;}
+.fb_spc{margin-left: 2px;}
+
+/******************* Mutual Fund Quote Page (Done by Subhranil) ********************/
+.sprite_block{border: none; text-align: center; margin: 2px auto; padding: 0; outline: none;}
+.rect_0{background: url(http://staticzacks.net/images/zacks/rank/rect.png) 0 0 no-repeat; width: 160px; height: 20px; padding: 0;}
+.rect_1{background: url(http://staticzacks.net/images/zacks/rank/rect.png) 0 -20px no-repeat; width: 160px; height: 20px; padding: 0;}
+.rect_2{background: url(http://staticzacks.net/images/zacks/rank/rect.png) 0 -40px no-repeat; width: 160px; height: 20px; padding: 0;}
+.rect_3{background: url(http://staticzacks.net/images/zacks/rank/rect.png) 0 -60px no-repeat; width: 160px; height: 20px; padding: 0;}
+.rect_4{background: url(http://staticzacks.net/images/zacks/rank/rect.png) 0 -80px no-repeat; width: 160px; height: 20px; padding: 0;}
+.rect_5{background: url(http://staticzacks.net/images/zacks/rank/rect.png) 0 -100px no-repeat; width: 160px; height: 20px; padding: 0;}
+
+
+p.gray_txt{color: #808080; font-size: 8pt;} /** this class has been used on ETF Quote page **/
+.whttxt{color: #F4F7FD;}
+h3.ex_topspc{margin: 15px 0 0 0;}
+
+
+/*************************Trader*****************************/
+.tradeleftCol{width: 205px; float:left;}
+.z_mod_tradesub{padding: 2px 2px 2px 5px; margin: 10px 0 0 10px; overflow: hidden; background: #edf2ec; border: 1px solid #cccccc;}
+
+/**** Used for Trader Left Panel structures ****/
+.z_left_tradenav{margin: 0; padding: 0;}
+.z_left_tradenav ul{margin: 0 0 15px 0; padding: 0;}
+.z_left_tradenav li{list-style-type: none; margin:0; padding: 0; font-family: Arial,Helvetica,sans-serif; font-size: 10pt; font-weight: bold; color: #ffffff; border-bottom: 1px solid #ffffff;}
+.z_left_tradenav li a, .z_left_tradenav li a:hover{font-family: Arial,Helvetica,sans-serif; font-size: 10pt; font-weight: bold; color: #ffffff; text-decoration: none;}
+/**** End of Ul Li for left panel ****/
+
+.trademoda{padding: 0; margin: 0 10px 0 10px;}   /**** Used for Trader Video Module structures ****/
+.trademod{padding: 0; margin: 0 10px 10px 10px;} /**** Used for Trader Module structures ****/
+.trademod_date{padding: 0; margin: 0 10px 10px 0;} /**** Used for Trader Module Date ****/
+.trademod_date .hd, .trademod .hd{margin: 0; padding: 3px;}          /**** Used for Trader Module Header section structures ****/
+.trademod_date h2,.trademod h2{color:#ffffff; font-family:Arial,Helvetica,sans-serif; font-size:10pt; font-weight:bold; padding:0 4px 0 4px; text-align:left;text-transform: uppercase;} /**** Used for Trader Module Header text styling  ****/
+.trademod_date h2{padding: 0px;}
+.trademod h4{padding:10px 0 0 0;}
+.trademod .bd{margin: 0; padding: 0;}           /**** Used for Trader Moduke Body section structures ****/
+.trademod p{padding: 5px 10px 5px 10px;}        /**** Used for Trader Module Paragraph strucrtures ****/
+
+/**** Used for Trader Module Table structures ****/
+.trader_table{border: none; border-collapse: collapse; width: 100%;  font-size:9pt;}
+.trader_table td {font-family:Arial,Helvetica,sans-serif; font-size:9pt; /*background-color:#fff;*/ padding-top: 4px; padding-left: 4px; border: none;}
+.trader_table th {font-family:Arial,Helvetica,sans-serif; font-size:9pt; color: #000000; font-weight: bold; padding: 2px 0 2px 4px; border: none;}
+table, tr, th, td{border: none; font-family:Arial,Helvetica,sans-serif;}
+.trader_table span{font-size:9pt;}
+.trader_table .leftspc_14{padding-left: 14px;}
+.trader_table .rightspc_14{padding-right: 14px;}
+.trader_table .leftspc_35{padding-left: 35px;}
+/**** End of Table structures for module part ****/
+
+/**** Used for Width definition for Modules Columns ****/
+.zr_30, .guide_img{width: 30px;}
+.zr_44, .ts_signal{width: 44px;}
+.zr_49{width: 49px;}
+.zr_50, .ts_symbol{width: 50px;}
+.zr_52{width: 52px;}
+.zr_57{width: 57px;}
+.zr_60{width: 60px;}
+.zr70, .data_value{width: 70px;}
+.zr_72, .ts_mktval{width: 72px;}
+.zr_74, .ts_ls{width: 74px;}
+.zr_80, .ts_dtadd, .ts_priceadd, .ts_lasttrade{width: 80px;}
+.zr100{width: 100px;}
+.zr_120, .q_sml_field{width: 120px;}
+.zr_125{width: 125px;}
+.zr_150, .com_spc{width: 150px;}
+.zr_168, .ts_comname{width: 168px;}
+.zr_175, .ts_comp{width: 175px;}
+.zr_190, .q_industry{width: 190px;}
+.zr_230, .ts_comname_exp, .edu_list{width: 230px;}
+.zr247{width: 247px;}
+.zr_250, .z_contct{width: 250px;}
+.zr_280, .oilimg{width: 280px;}
+.zr_290{width: 290px;}
+.zr_330, .data_name{width: 330px;}
+.zr355{width: 355px;}
+.zr360{width: 360px;}
+.zr_388, .rec_spc{width: 388px;}
+.zr_500, .zr450{width: 500px;}
+
+
+.trade_mugshot{margin: 10px 10px 0 10px; float: left;}  /**** Used for Portfolio Module image positioning ****/
+
+.trader_comm{margin: 0 10px 30px 10px;}
+.tradecommmod{padding: 10px; margin: 0 10px 10px 10px;}
+.ts_disclaimer{font-family:Arial,Helvetica,sans-serif; color: gray; font-size: 8pt; font-weight: normal; font-style: italic; padding-top: 10px;} /**** Used for Trader Performance page disclaimer text styling  ****/
+.trader_vidcom{width: 220px; float: right; margin: 0;} /** width: 290px; (Previous width)**/ /**** Used for Video Commentary Module positioning ****/
+
+/**** Used for Trader Portfolio Module Author and Posted date text styling ****/
+.ts_composted, .ts_comby{color: gray; font-size: 10pt; display: block;}
+.ts_composted{font-style: italic; margin-top: 5px;}
+/**** End of text styling ****/
+
+
+
+/******************* Turn Around Trader Color Guide **********************/
+.trade_turnaround{background: #2c5902; margin-left: 10px;}
+.turnaround_right{background: #ffffff; min-height: 500px;}
+.z_mod_turnaround .hd{background: #2c5902;}
+.z_mod_turnaround .bd{border:1px solid #8F791B;}
+.z_mod_turnaround .bddiv{border:1px solid #8F791B; padding: 0 10px 10px 10px;}
+.z_mod_turnaround .bddiva{border:1px solid #8F791B; padding: 0 10px 0 10px;}
+.turnaround th { background-color: #f1e1ac;}
+
+.mainbreadbar_new {
+background:url(http://staticzacks.net/images/zacks/trader/turnaround/ttHomeGrad.png) repeat-y right top #ffffff; color: #4C2D14; border-bottom:2px solid #cabf8f; border-top:2px solid #947400; border-right:1px solid #ffffff; border-left:1px solid #ffffff; margin: 0 0 10px; padding: 10px;}
+
+/******************* Chartpattern Trader Color Guide **********************/
+.trade_chartpattern{background: #38243b; margin-left: 10px;}
+.chartpattern_right{background: #ffffff; min-height: 500px;}
+.z_mod_chartpattern .hd{background: #38243b;}
+.z_mod_chartpattern .bd{border:1px solid #38243b;}
+.z_mod_chartpattern .bddiv{border:1px solid #38243b; padding: 0 10px 10px 10px;}
+.z_mod_chartpattern .bddiva{border:1px solid #38243b; padding: 0 10px 0 10px;}
+.chartpattern th { background-color: #E7E4F2;}
+
+.chartpattern_mainbreadbar {
+background:url(http://staticzacks.net/images/zacks/trader/chartpattern/cptHomeGrad-copy.png) repeat-y right top #ffffff; color: #4C2D14; border-bottom:2px solid #E6E4EF; border-top:2px solid #38243B; border-right:1px solid #ffffff; border-left:1px solid #ffffff; margin: 0 0 10px; padding: 10px;}
+
+/******************* Homerun Investors Color Guide **********************/
+.trade_homerun{background: #002b83; margin-left: 10px;}
+.homerun_right{background: #ffffff; min-height: 500px;}
+.z_mod_homerun .hd{background: #002b83;}
+.z_mod_homerun .bd{border:1px solid #002b83;}
+.z_mod_homerun .bddiv{border:1px solid #002b83; padding: 0 10px 10px 10px;}
+.z_mod_homerun .bddiva{border:1px solid #002b83; padding: 0 10px 0 10px;}
+.homerun th { background-color: #D9E0ED;}
+
+.homerun_mainbreadbar {
+background:url(http://staticzacks.net/images/zacks/trader/homerun/hriTopGrad.gif) repeat-y right top #ffffff; color: #4C2D14; border-bottom:2px solid #990511; border-top:2px solid #990511; border-right:1px solid #ffffff; border-left:1px solid #ffffff; margin: 0 0 10px; padding: 10px;}
+
+/******************* Momentum Trader Color Guide **********************/
+.trade_momentum{background: #31527b; margin-left: 10px;}
+.momentum_right{background: #ffffff; min-height: 500px;}
+.z_mod_momentum .hd{background: #31527b;}
+.z_mod_momentum .bd{border:1px solid #31527b;}
+.z_mod_momentum .bddiv{border:1px solid #31527b; padding: 0 10px 10px 10px;}
+.z_mod_momentum .bddiva{border:1px solid #31527b; padding: 0 10px 0 10px;}
+.momentum th { background-color: #E7E4F2;}
+
+.momentum_mainbreadbar {
+background:url(http://staticzacks.net/images/zacks/trader/homerun/hriTopGrad.gif) repeat-y right top #ffffff; color: #4C2D14; border-bottom:2px solid #31527b; border-top:2px solid #31527b; border-right:1px solid #ffffff; border-left:1px solid #ffffff; margin: 0 0 10px; padding: 10px;}
+
+/******************* Options Trader Color Guide **********************/
+.trade_option{background: #2B2BA2; margin-left: 10px;}
+.option_right{background: #ffffff; min-height: 500px;}
+.z_mod_option .hd{background: #2B2BA2;}
+.z_mod_option .bd{border:1px solid #8F791B;}
+.z_mod_option .bddiv{border:1px solid #8F791B; padding: 0 10px 10px 10px;}
+.z_mod_option .bddiva{border:1px solid #8F791B; padding: 0 10px 0 10px;}
+.option th { background-color: #AFE2DB;}
+.option tr.alt td{background-color: #E1F7F4;}
+
+.options_mainbreadbar {
+background:url(http://staticzacks.net/images/zacks/trader/options/otHomeGradient.jpg) repeat-y right top #ffffff; color: #4C2D14; border-bottom:2px solid #47BEA6; border-top:2px solid #47BEA6; border-right:1px solid #ffffff; border-left:1px solid #ffffff; margin: 0 0 10px; padding: 10px;}
+
+/******************* Reitmeister Trader Color Guide **********************/
+.trade_rta{background: #8c781a; margin-left: 10px;}
+.rta_right{background: #ffffff; min-height: 500px;}
+.z_mod_rta .hd{background: #8c781a;}
+.z_mod_rta .bd{border:1px solid #8c781a;}
+.z_mod_rta .bddiv{border:1px solid #8c781a; padding: 0 10px 10px 10px;}
+.z_mod_rta .bddiva{border:1px solid #8c781a; padding: 0 10px 0 10px;}
+.rta th { background-color: #E9EEE9;}
+
+.rta_mainbreadbar {
+background:url(http://staticzacks.net/images/zacks/trader/rta/top_breadbar.png) repeat-y right top #ffffff; color: #4C2D14; border-bottom:2px solid #8c781a; border-top:2px solid #8c781a; border-right:1px solid #ffffff; border-left:1px solid #ffffff; margin: 0 0 10px; padding: 10px;}
+/*.(http://staticzacks.net/images/zacks/trader/options/otHomeGradient.jpg)*/
+
+/********************For Quote Popup**********************/
+
+.page_qp {background:#ffffff none repeat scroll 0 0; width: 100%; padding:0; margin: 0 auto; overflow: hidden;}
+.page_qp h3{font-family: Arial,Helvetica,sans-serif;  font-size: 10pt; color: #000; line-height: normal; font-weight: bold; margin: 0 0 0 0; padding: 0;}
+
+
+/******************* Ahead Of Wall Street Page (Subhranil) ********************/
+.mod_moreequity{background: #fbfbd7; padding: 10px; width: 300px; margin: 5px 0 0 10px;}
+h3.report_head{color:#000000; font-family:Arial,Helvetica,sans-serif; font-size:10pt; font-weight:bold; line-height:normal; margin:12px 0 0; padding:0;}
+
+.aowh_img{background: url(http://staticzacks.net/images/zacks/aws/aows_long.png) no-repeat 0 0; height: 87px; width: 950px;}
+.stockreports_img{background: url(http://staticzacks.net/images/zacks/aws/aows_long.png) no-repeat 0 -87px; height: 51px; width: 950px;}
+.earningsnews_img{background: url(http://staticzacks.net/images/zacks/aws/aows_long.png) no-repeat 0 -139px; height: 59px; width: 950px;}
+.bull_img{background: url(http://staticzacks.net/images/zacks/aws/aows_small.png) no-repeat 0 -58px;  height: 58px; width: 630px;}
+.stockmove_img{background: url(http://staticzacks.net/images/zacks/aws/aows_small.png) no-repeat 0 0; height: 58px; width: 630px;}
+
+
+.sml_topspc{padding-top: 7px;}
+.z_aows_mod p {padding:10px 0 0;}
+
+/******************* Economic Highlight Page (Subhranil) ********************/
+.page .z_feedback_icon{background:url(http://staticzacks.net/images/zacks/icons/feedback.png) no-repeat left top; padding: 0 10px 0 17px;}
+
+
+/******************* Faq Page (Done by Subhranil) ********************/
+.topspc_indctr{padding-top:3px;}
+
+/********************* CSS for Buttons *************************/
+input.pre_btn, input.quote_btn, input.btn, input.pre_btn:hover, input.quote_btn:hover, input.btn:hover{background:#0E9023;  border-right: 2px solid #0C721C; border-bottom: 2px solid #0B4912; border-left: 2px solid #79B837; border-top: 2px solid #84BC39; font: arial,helvetica,clean,sans-serif; color: #ffffff; font-size: 9pt; font-weight: 700; text-transform: uppercase; text-align: center; margin: 0; padding: 0 2px; outline: 1px solid #898989;}
+input.pre_btn:hover, input.quote_btn:hover, input.btn:hover{background:#47A52E; cursor: hand;}
+
+input.searchbutton, input.searchbutton:hover{background:#0E9023;  border-right: 2px solid #0C721C; border-bottom: 2px solid #0B4912; border-left: 2px solid #79B837; border-top: 2px solid #84BC39; font: arial,helvetica,clean,sans-serif; color: #ffffff; font-size: 9pt; font-weight: 700; text-transform: uppercase; text-align: center; margin: 0; padding: 1px 6px; outline: 1px solid #898989;}
+input.searchbutton:hover{background:#47A52E; cursor: hand;}
+
+a.zm_nav_current{color: #03268c; font-weight: bold;}
+a.zm_nav{color: #000000; font-weight: bold;}
+
+/******************* Media Room *********************/
+.mr_logo{float: left; padding: 0 0 0 10px;}
+.mr_hbg{padding: 0 10px 0 0;}
+.body .mr_top_bar { background:url(/images/topbar.gif) repeat-x; height: 20px; padding: 2px 5px 2px 5px; margin: 4px 10px 0 10px;}
+.body .mr_top_bar .hd {color: #ffffff; font-weight: bold;}
+.media_room{background: #224f42; margin-left: 10px;}
+.mr_mod{padding: 0; margin: 10px 10px 0 10px;}
+/*.mroom_mod .hd{color: #ffffff; font-weight: bold;background:url(/images/cathead2col.gif) repeat-x; height: 27px;}*/
+/*.mroom_mod .bd{border:1px solid #000000;}
+.mrroom_mod_left{color: #ffffff; font-weight: bold;background:url(/images/cathead_left.png) repeat-x left top; height: 27px;}
+.mrroom_mod_right{color: #ffffff; font-weight: bold;background:url(/images/cathead_right.png) repeat-x right top; height: 27px;}
+.mrroom_mod_left .hd{color: #ffffff; font-weight: bold; padding: 3px 0 0 10px;}
+.mroom_mod p{padding-bottom: 10px;}*/
+
+/**** Used for Media Room Left Panel structures ****/
+/*.z_left_mr{margin: 0; padding: 0;}
+.z_left_mr ul{margin: 0 0 15px 0; padding: 0;}
+.z_left_mr li{list-style-type: none; margin:0; padding: 0; font-family: Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: bold; color: #ffffff; border-bottom: 1px solid #36715f;}
+.z_left_mr li a, .z_left_mr li a:hover{font-family: Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: bold; color: #ffffff; text-decoration: none;}
+.z_left_mr li ul{margin: 0; padding: 0;}
+.z_left_mr li ul li{list-style-type: none; margin:0; padding: 0; font-family: Arial,Helvetica,sans-serif; font-size: 9pt; font-weight: bold; color: #ffffff; border-bottom: none;}*/
+/**** End of Ul Li for left panel ****/
+
+.mr_table{width: 400px; margin: 0 auto;}
+.mr_table td{line-height: 25px;}
+
+/*css for pagination in html table generator yeilded table*/
+.pagination{padding: 0; margin: 0;}
+.pagi{text-align: center; padding:0 2px 6px 2px; margin: 2px 1px 1px 1px; width: 10px; height: 18px; border: none; width: 20px;}
+.paginone{text-align: right; font-weight: bold; padding:0; margin: 0;}
+.pagisel{text-align: center; font-weight: normal; margin:2px; padding:0 4px; background: #ccc;}
+.pg_img{vertical-align: middle;}
+.pg_spsimg{padding: 0 2px;}
+.pg_sps{padding: 1px 4px 1px 4px;}
+.pg_sps:hover{background: #FF6600; color: #fff;}
+
+/* Roll over visuals for tfoot */
+.green_stripe .jstable tfoot tr:hover th[scope=row],
+.green_stripe .jstable tfoot tr:hover td{  background: #ffffff; color: #000000;}
+
+
+.excp_tbl .jstable{table-layout: fixed;} /** Exceptional table class for fixed width **/
+.excp_tbl .jstable th, .excp_tbl .jstable td{word-wrap: break-word;} /** Exceptional th,td class for word wrap **/
+/*css for pagination in html table generator yeilded table*/
+
+
+
+
+/* CSS for Education Page (Done By Subhranil) */
+.edu_guide_img{height: 152px; width: 100px;}     /**** Used for Zacks Rank Education Guide IMAGE ****/
+.option_edu_img{height: 140px; width: 100px;}    /**** Used for Options Education IMAGE ****/
+.topspc_optionsedu{padding: 50px 0 0 0;}
+
+.hide{display: none;}
+.show{display: block;}
+
+/********* For Portfolio pages ***********/
+.z_mod_subright{ padding: 5px 0 10px 0; margin: 10px 0 0 10px; overflow: hidden; background: #f4f7fd; border: 1px solid #b4d2ec;} /* margin: 10px 10px 0 10px;   (Changed by Subhranil) */
+.rightColexp{ width: 215px; float: right;}
+.z_mod_righ_rating{border:1px solid #c2a67e; padding: 0; margin: 10px 10px 0 10px;}
+.z_mod_righ_rating .hd{background: #fd9a01;}
+.z_mod_righ_rating h2{color:#ffffff; font-family:Arial,Helvetica,sans-serif; font-size:11pt; font-weight:bold; padding:0 4px 0 4px; text-align:left;text-transform: none;}
+.z_mod_righ_rating .hd, .z_mod_righ_rating .bd, .z_mod_righ_rating .ft{margin: 0; padding: 3px;}
+
+.z_inner_sub{background: #f4f7fd; border:1px solid #b4d2ec; padding: 5px 10px 10px 10px; margin: 10px 0 0 10px; overflow: hidden;}
+.z_inner_sub1{/*background: #ffffff; border-left:1px solid #b4d2ec;*/ padding: 0; margin: 15px 0 0 0; overflow: hidden;}
+.z_inner_sub1 h4{border-left:1px solid #b4d2ec; font-size: 14pt; font-weight: bold; padding: 15px 5px 15px 5px;}
+
+.port_hd{min-height: 20px;}
+
+.z_sub_inner{background: #f4f7fd; border:1px solid #b4d2ec; padding: 5px 10px 10px 10px; margin: 10px 0 0 0; overflow: hidden;}
+.z_sub_exp{background: url(../images/pfpHead.png) no-repeat top left #f4f7fd; border:1px solid #b4d2ec; padding: 5px 10px 10px 10px; margin: 10px 0 0 10px; overflow: hidden;}
+.z_sub_exp p, .z_sub_exp h2{margin: 10px 0 0 0;}
+.pfp_heading{margin: 0 0 20px 140px;}
+
+input.port_btn, input.port_btn:hover{width:112px; background:#F4F7FD;  border-right: 2px solid #B4D2EC; border-bottom: 2px solid #B4D2EC; border-left: 2px solid #B4D2EC; border-top: 2px solid #B4D2EC; font: arial,helvetica,clean,sans-serif; color: #017316; font-size: 9pt; font-weight: 700; text-transform: uppercase; text-align: center; margin: 0; padding: 0 2px; outline: 1px solid #ffffff;}
+input.port_btn:hover{background:#e3e3e3; cursor: hand; color: #03268C;}
+
+/*.tabalike, .tabalike ul{
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+.tabalike li{
+    display: inline;
+    list-style-type: none;
+    border: 1px solid #b4d2ec;
+    border-bottom: none;
+    background: #F4F7FD;
+    font-size: 13px;
+    padding: 3px 6px 4px 6px;
+    margin-right: 4px;
+}
+.tabalike li a, .tabalike li a:link, .tabalike li a:hover{
+    font-weight: bold;
+    color: #03268C;
+    text-decoration: none;
+}
+.tabalike li a:hover{
+    color: #b4d2ec;
+}
+.tabalike li.selected{
+    border-bottom: 1px solid #ffffff;
+    background: #ffffff;
+}*/
+.tabalike-content{
+    padding: 10px;
+    margin: 2px 0 0 0;
+    border: 1px solid #b4d2ec;
+}
+.tabalike_content_vid{
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #b4d2ec;
+    clear: both;
+}
+
+/**** for Video Thumbnails ****/
+.zr_vidthumb, .zr_vidrelt {margin: 0; padding: 0;}
+.zr_vidthumb ul, .zr_vidrelt ul{margin: 0; padding: 0;}
+.zr_vidthumb li{width: 214px; min-height: 205px; margin: 10px 6px 5px 6px; float: left; list-style-type: none; padding: 5px; /*height:auto; border: 1px solid #cdcdcd;*/}
+.zr_vidrelt li{width: 209px; height: auto; margin: 0 9px 5px 9px; float: left; list-style-type: none; padding: 5px; /*border: 1px solid #cdcdcd;*/}
+.zr_vidthumb li.selected{background: #E8FBEB; /*border: 1px solid #99B09D;*/}
+.zr_vidthumb li a, .zr_vidrelt li a{color: black; font-weight: bold; text-decoration: none;}
+.zr_vidthumb li a:hover, .zr_vidrelt li a:hover{color: green; text-decoration: none;}
+.zr_vidthumb li p, .zr_vidrelt li p{margin: 0;}
+
+.video_thumbnail{width: 211px; height: 116px; margin-bottom: 3px; border: 1px solid #B4D2EC;}
+.video_relthumb{width: 206px; height: 113px; margin-bottom: 3px; border: 1px solid #B4D2EC;}
+.vid_duration{color: gray; font-weight: bold;}
+/**** for Video Thumbnails ****/
+
+.pdf_icon{background:url(http://staticzacks.net/images/icons/file_types/pdf.png) no-repeat left; padding: 0 0 0 22px;}
+
+.networking-link{
+    margin: 10px 0 0 3px;
+}
+
+.table-mid{
+    margin: 0 auto 10px auto;
+}
+
+
+
+
+
+/************* Added by Subhranil for Myportfolio Page ***************/
+.premium_icon_js {
+    background: url("http://staticzacks.net/images/zacks/logos/premium_18x14.png") no-repeat right;
+    padding: 0 22px 0 0;
+}
+.jstable .premium_icon_js:hover {
+    background: url("http://staticzacks.net/images/zacks/logos/premium_18x14.png") no-repeat right #EEEEEE;
+    cursor: pointer;
+}
+
+/************* Added by Subhranil for Comparefund Page ***************/
+.premium_icon_fund {
+    background: url("http://staticzacks.net/images/zacks/logos/premium_18x14.png") no-repeat right 21px;
+}
+.jstable .premium_icon_fund:hover {
+    background: url("http://staticzacks.net/images/zacks/logos/premium_18x14.png") no-repeat right 21px #EEEEEE;
+}
+
+a.z-header, a.z-header:hover{
+    color: #017316;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.jsspan{
+    display:block;
+    text-align: center;
+}
+
+.highlight_option{background:#d8e7f0; color:#000000;}
+.highlight_info {width:15px; height:15px; background:#d8e7f0;}
+.highlight_structure { float:left; margin:5px 5px 0 0;}
+
+.rank_placement{
+     margin: 0 0 0 40px;
+}
+
+
+
+
+/***************  Inside Trader (Done by Subhranil )******************/
+.trade_inside{background: #003a3a; margin-left: 10px;}
+.trade_right{background: #ffffff; min-height: 500px;}
+.z_mod_trade .hd{background: #003a3a;}
+.z_mod_trade .bd{border:1px solid #003a3a;}
+.z_mod_trade .bddiv{border:1px solid #003a3a; padding: 0 10px 10px 10px;}
+.z_mod_trade .bddiva{border:1px solid #003a3a; padding: 0 10px 0 10px;}
+.trade th { background-color: #BACACA;}
+
+.insider_mainbreadbar {
+background:url(../images/insidertrader/trader_headgradient.gif) repeat-y right top #ffffff; color: #4C2D14; border-bottom:2px solid #003a3a; border-top:2px solid #003a3a; border-right:1px solid #ffffff; border-left:1px solid #ffffff; margin: 0 0 10px; padding: 10px;}
+
+
+
+/***************  Reitmeister Value (Done by Subhranil )******************/
+.trade_value{background: #89723d; margin-left: 10px;}
+.value_right{background: #ffffff; min-height: 500px;}
+.z_mod_value .hd{background: #89723d;}
+.z_mod_value .bd{border:1px solid #89723d;}
+.z_mod_value .bddiv{border:1px solid #89723d; padding: 0 10px 10px 10px;}
+.z_mod_value .bddiva{border:1px solid #89723d; padding: 0 10px 0 10px;}
+.value th { background-color: #F4ECCE;}
+
+.value_mainbreadbar {
+background:url(http://staticzacks.net/images/zacks/trader/valueinvestor/rviHorizontalGrad1.png) repeat-y right top #ffffff; color: #4C2D14; border-bottom:2px solid #89723d; border-top:2px solid #89723d; border-right:1px solid #ffffff; border-left:1px solid #ffffff; margin: 0 0 10px; padding: 10px;}
+.value p{padding: 0;}
+.company{margin: 4px 0 0 24px;}
+.symbol{margin: 4px 0 0 10px;}
+.added{margin: 4px 0 0 30px;}
+.change{margin: 4px 10px 0 0;}
+.trader_table th.change_rgtspc, .change_rgtspc{padding: 2px 3px 2px 4px;}
+/*.trader_table th.change_rgtspc, .change_rgtspcmr{padding: 2px 13px 2px 4px;}*/
+
+/***************  Small Cap Trader (Done by Subhranil )******************/
+.trade_smallcap{background: #132065; margin-left: 10px;}
+.smallcap_right{background: #ffffff; min-height: 500px;}
+.z_mod_smallcap .hd{background: #132065;}
+.z_mod_smallcap .bd{border:1px solid #132065;}
+.z_mod_smallcap .bddiv{border:1px solid #132065; padding: 0 10px 10px 10px;}
+.z_mod_smallcap .bddiva{border:1px solid #132065; padding: 0 10px 0 10px;}
+.smallcap th { background-color: #D9D9E4;}
+
+.smallcap_mainbreadbar {
+background:url(http://staticzacks.net/images/zacks/trader/homerun/hriTopGrad.gif) repeat-y right top #ffffff; color: #4C2D14; border-bottom:2px solid #132065; border-top:2px solid #132065; border-right:1px solid #ffffff; border-left:1px solid #ffffff; margin: 0 0 10px; padding: 10px;}
+
+
+
+/***************  Whisper Trader (Done by Subhranil )******************/
+.trade_whisper{background: #000033; margin-left: 10px;}
+.whisper_right{background: #ffffff; min-height: 500px;}
+.z_mod_whisper .hd{background: #000033;}
+.z_mod_whisper .bd{border:1px solid #000033;}
+.z_mod_whisper .bddiv{border:1px solid #000033; padding: 0 10px 10px 10px;}
+.z_mod_whisper .bddiva{border:1px solid #000033; padding: 0 10px 0 10px;}
+.whisper th { background-color: #9AAEEA;}
+
+.whisper_mainbreadbar {
+background:url(../images/whispertrader/whisper_headgradient.gif) repeat-y right top #ffffff; color: #4C2D14; border-bottom:2px solid #000033; border-top:2px solid #000033; border-right:1px solid #ffffff; border-left:1px solid #ffffff; margin: 0 0 10px; padding: 10px;}
+
+
+
+/***************  Ultimate Trader (Done by Subhranil )******************/
+.z_mod_ultimate{margin:0 10px 0 0; padding: 10px; border:1px solid #49694e;}
+.z_mod_ultimate p{margin:10px 0;}
+.z_mod_ultimate .ft p{margin:0;}
+.ultimate_feature{border:1px solid #008000;}
+.ultimate_feature .hd{background: #008000;}
+.z_mod_ultimate .bddiva{border:1px solid #49694e; padding: 0 10px 0 10px;}
+.ultimate_feature h4{padding: 3px 0 0 0;}
+
+.ultimate_mainbreadbar {
+background: #ffffff; color: #4C2D14; border-bottom:2px solid #49694e; border-top:2px solid #49694e; border-right:1px solid #ffffff; border-left:1px solid #ffffff; margin: 0 0 10px; padding: 10px;}
+
+
+/******************* Weekend wisdom module ********************/
+.z_wwpanel{
+    background: #f0fdef;
+    border: 1px solid #E3E3E3;
+    padding: 10px;
+    margin: 0 0 0 10px;
+}
+
+/********************help popup for quote page ******************/
+
+#mf_rank, #quote_rank, #quote_recom, #quote_ind_rank, #quote_targ_price, #quote_rese_report{
+        width: 400px;
+        background: none repeat scroll 0 0 #EEEEEE;
+        border: 1px solid #49694e;
+        padding: 5px;
+    }
+
+/**************** Css for Trader Site Popup (Done By Subhranil) *******************/
+.black_overlay{display: none; position: fixed; top: 0%; left: 0%;  width: 100%;  height: 100%;  background-color: gray; z-index:1001;  -moz-opacity: 0.8; opacity:.80; filter: alpha(opacity=80);}
+.white_content {display: none; position: fixed; top: 15%; left: 20%; width: 575px; height: 435px; padding: 5px; border: 2px solid #0CAE27; background-color: white; z-index:1002; overflow:hidden;}
+.white_content iframe{border: none;}
+
+
+/**************** Textbox background color for Portfolio Page  *******************/
+.white_bg{background: #fff;}
+.select_bg{background: #c5d8ff;}
+
+
+/************* Quote Chart Comparative Page (following css has been used on quote chart comparative page) - added by subhranil (7419)  *****************/
+
+.main #compchart .qmmt_main{background-color: #ffffff; border: none;}
+
+/*.qmmt_tab{font: bold 12px Arial,Helvetica,Sans-Serif; color: #333333; background-color: #CAD1CB; border-left-color: #49694E; border-bottom-color: #49694E; border-top-color: #49694E;}
+.qmmt_tabactive{font: bold 12px Arial,Helvetica,Sans-Serif; color: #030303; background-color: #ffffff; border-left-color: #49694E;}*/
+
+.main #compchart .qmmt_text{color: #000000; font-weight: normal; margin: 0; padding-bottom: 5px; padding-top: 5px; font-family: Arial,Helvetica,sans-serif; font-size: 10pt;}
+
+/*.qmmt_text_up{font: 12px Arial,Helvetica,Sans-Serif; color: #009900;}
+.qmmt_text_down{font: 12px Arial,Helvetica,Sans-Serif; color: #ff0000;}
+.qmmt_cycle{ background-color: #EDF2ED;}*/
+
+.main #compchart .qmmt_header_text{color: #000000; font-family: Arial,Helvetica,sans-serif; font-size: 10pt; font-weight: bold; line-height: normal;}
+.main #compchart .qmmt_header_bar{background: none; border: none; margin: 5px 0 0; padding: 0;}
+.main #compchart .qmmt_sub_header_text{color: #000000; font-family: Arial,Helvetica,sans-serif; font-size: 10pt; font-weight: bold; line-height: normal;}
+.main #compchart .qmmt_sub_header_bar{background: none; border: none; margin: 5px 0 0; padding: 0;}
+.main #compchart a.qmmt {font-family: Arial,Helvetica,sans-serif; color:#03268C; text-decoration:none;}
+.main #compchart a:hover.qmmt{font-family: Arial,Helvetica,sans-serif; color:#03268C; text-decoration:underline;}
+
+/*a.qm_custom_header {color: #ffffff; font: 12px Arial,Helvetica,Sans-Serif; text-decoration: underline;}
+a:visited.qm_custom_header{color: #ffffff; font: 12px Arial,Helvetica,Sans-Serif; text-decoration: underline;}
+a:hover.qm_custom_header{color: #ffffff; font: 12px Arial,Helvetica,Sans-Serif; text-decoration: underline;}
+a.lookup{ font: bold 12px Arial,Helvetica,Sans-Serif; color: #ffffff; text-decoration: none;}
+a:visited.lookup{font: bold 12px Arial,Helvetica,Sans-Serif; color: #ffffff; text-decoration: none;}
+a:hover.lookup {font: bold 12px Arial,Helvetica,Sans-Serif; color: #ffffff; text-decoration: none;}*/
+
+.main #compchart .qm_buildChart_button{background:#0E9023;  border-right: 2px solid #0C721C; border-bottom: 2px solid #0B4912; border-left: 2px solid #79B837; border-top: 2px solid #84BC39; font: arial,helvetica,clean,sans-serif; color: #ffffff; font-size: 9pt; font-weight: 700; text-transform: uppercase; text-align: center; margin: 0; padding: 0 2px; outline: 1px solid #898989;}
+.main #compchart .qm_buildChart_button span{color: #fff; font-weight: bold;}
+.main #compchart .qm_buildChart_button:hover{background:#47A52E; cursor: hand;}
+
+.main #compchart .qmmt_main table{border-collapse: collapse; font-family: Arial,Helvetica,sans-serif; margin: 0 0 20px;}
+.main #compchart .qmmt_main table td{color: #000000; font-weight: normal; margin: 0; padding-bottom: 5px; padding-top: 5px;}
+
+/*************** End Quote Chart Comparative Page ******************/
+
+
+
+/**************** Etf Quotemedia chart (added by Subhranil) ********************/
+
+.qmmt_main{background-color: #ffffff; border: 0px solid #ffffff;}
+.qmmt_tab{font: bold 12px Arial,Helvetica,Sans-Serif; color: #333333; background-color: #CAD1CB; border-left-color: #49694E; border-bottom-color: #49694E; border-top-color: #49694E;}
+.qmmt_tabactive{font: bold 12px Arial,Helvetica,Sans-Serif; color: #030303; background-color: #ffffff; border-left-color: #49694E;}
+.qmmt_text{font: 12px Arial,Helvetica,Sans-Serif; color: #030303;}
+.qmmt_text_up{font: 12px Arial,Helvetica,Sans-Serif; color: #009900;}
+.qmmt_text_down{font: 12px Arial,Helvetica,Sans-Serif; color: #ff0000;}
+.qmmt_cycle{background-color: #EDF2ED;}
+.qmmt_header_text{font: bold 13px Arial,Helvetica,Sans-Serif; color: #000000;}
+.qmmt_header_bar{background-color: #EDF2ED; border-color: #EDF2ED;}
+.qmmt_sub_header_text{font: bold 12px Arial,Helvetica,Sans-Serif; color: #000000;}
+.qmmt_sub_header_bar{background-color: #EDF2ED; border-color: #EDF2ED;}
+a.qmmt {color: #0000aa;}
+a:visited.qmmt {color: #0000aa;}
+a:hover.qmmt{color: #ff0000;}
+a.qm_custom_header{color: #ffffff; font: 12px Arial,Helvetica,Sans-Serif; text-decoration: underline;}
+a:visited.qm_custom_header{color: #ffffff; font: 12px Arial,Helvetica,Sans-Serif; text-decoration: underline;}
+a:hover.qm_custom_header{color: #ffffff; font: 12px Arial,Helvetica,Sans-Serif; text-decoration: underline;}
+a.lookup{font: bold 12px Arial,Helvetica,Sans-Serif; color: #ffffff; text-decoration: none;}
+a:visited.lookup{font: bold 12px Arial,Helvetica,Sans-Serif; color: #ffffff; text-decoration: none;}
+a:hover.lookup{font: bold 12px Arial,Helvetica,Sans-Serif; color: #ffffff; text-decoration: none;}
+
+/*********** End Etf Quotemedia chart ************/
+
+.qt_spc{margin-top: 5px;}
+.tb_topspc{padding-top: 12px;}
+
+.error{color: #ff0000; font-weight: bold;}
+
+
+/*********** MF Rank Page ***************/
+.mf_show{background: #F4F7FD; border: 1px solid #B4D2EC; padding: 10px 5px 10px 10px; overflow: hidden; margin: 0;}
+.mf_rank_tbl{width: 100%; vertical-align: top; border-spacing: none; border-collapse: collapse; font-family: Arial,Helvetica,sans-serif; background: none;}
+.mf_rank_tbl td {font-family: Arial,Helvetica,sans-serif; vertical-align: middle; border: none; font-size: 9pt; border-collapse: collapse; color: #000; font-weight: normal;  padding: 3px 2px;}
+#feedback_div body{background: #fff;}
+
+/************* Mutual Compare funds *****************/
+.page .mf_comfund{margin: 5px 0; padding: 0; border-bottom: 2px solid #017316; float: left; width: 100%;} /**** For Mutual Fund Ranked Fund Green TAB ****/
+.mf_comfund ul{margin: 0; padding: 0;}
+.mf_comfund li{list-style-type: none; float: left; margin: 0; padding: 0;}
+.mf_comfund li a{padding: 2px 26px; margin: 0; border-bottom: 2px solid #017316; font-family:arial; font-size: 10pt; text-align: center; font-weight: bold; text-decoration: none; color:#017316;}
+.mf_comfund li a.select_comfund{background: #017316; color: #fff; font-family:arial; font-size: 10pt; text-align: center; font-weight: bold; text-decoration: none;}
+
+.jstable thead th a p.red_grth{color: #da3600; font-weight: bold; text-align: center;}
+.jstable thead th a p.blue_val{color: #0f84d4; font-weight: bold; text-align: center;}
+.jstable thead th a p.org_grth{color: #f9a308; font-weight: bold; text-align: center;}
+.jstable thead th a p.grn_val{color: #62d038; font-weight: bold; text-align: center;}
+
+.green_stripe .jstable tbody td .comfund_hold{border: 1px solid #8B9F8E; width: 100%; background: #fff;}
+.green_stripe .jstable tbody td .comfund_hold tbody td{background: #fff; color: #000;}
+
+/*************** Exceptional **************/
+
+.orange{color: orange;}
+.z_mod_diff_head {
+    border:1px solid #E3E3E3;
+    margin:10px 0 0 10px;
+    overflow:hidden;
+    padding:5px 10px 10px;
+}
+.z_mod_diff_head h2{color: #c96c26;}
+
+.z_lrec{border:1px solid #E3E3E3; margin: 0 0 10px 0; padding: 5px 9px 10px 9px; margin: 10px 0 0 10px; overflow: hidden;} /**** for Lrec advertisement mod *****/
+
+.black{color: #000000;}
+.black a, .black a:link, .black a:active, .black a:visited {color:#000000; text-decoration:none;}
+.black a:hover {text-decoration:underline;}
+
+
+/*********************** class added for new look right panel **********************/
+.rightCol{
+    background: #ECF1F7;
+    margin-top: 10px;
+}
+.zmod_right{
+    border: 1px solid #B4D2EC;
+    background: #ffffff url(http://staticzacks.net/images/zacks/rightpanel_bg.png) repeat-x bottom left;
+    margin:0 10px 10px 10px;
+    padding:5px 10px 10px;
+}
